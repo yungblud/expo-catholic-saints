@@ -5,7 +5,9 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
   },
   "include": [
@@ -13,6 +15,7 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "data/**/*.json"
+    "data/**/*.json",
+    "nativewind-env.d.ts"
   ]
 }
