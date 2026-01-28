@@ -1,0 +1,52 @@
+# Changelog
+
+All notable changes to this skill will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this skill adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Added
+-
+
+### Changed
+-
+
+### Deprecated
+-
+
+### Removed
+-
+
+### Fixed
+-
+
+## [1.0.0] - {{DATE}}
+
+### Added
+- Initial release
+- {{CATEGORY_1}} rules ({{IMPACT_1}})
+  - `{{PREFIX_1}}-{{RULE_1}}` - {{RULE_1_DESC}}
+  - `{{PREFIX_1}}-{{RULE_2}}` - {{RULE_2_DESC}}
+- {{CATEGORY_2}} rules ({{IMPACT_2}})
+  - `{{PREFIX_2}}-{{RULE_3}}` - {{RULE_3_DESC}}
+
+---
+
+## Versioning Guide
+
+- **MAJOR** version: Incompatible changes (rule removal, breaking changes)
+  - Example: Removing a CRITICAL rule, changing rule meaning significantly
+
+- **MINOR** version: Backwards-compatible additions
+  - Example: Adding new rules, adding new categories
+
+- **PATCH** version: Backwards-compatible fixes
+  - Example: Fixing code examples, clarifying descriptions, typo fixes
+
+## Migration Notes
+
+### From 0.x to 1.0
+
+- N/A (initial release)

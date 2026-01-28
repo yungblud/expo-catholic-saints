@@ -1,0 +1,105 @@
+---
+name: {{SKILL_NAME}}
+description: |
+  {{SKILL_DESCRIPTION}}
+license: MIT
+metadata:
+  author: {{AUTHOR}}
+  version: '1.0.0'
+  # Versioning Guide:
+  # - MAJOR: Breaking changes (rule removal, incompatible changes)
+  # - MINOR: New rules or significant expansions
+  # - PATCH: Bug fixes, clarifications, example updates
+  #
+  # When to bump version:
+  # - Adding new rule: MINOR (1.0.0 -> 1.1.0)
+  # - Fixing rule example: PATCH (1.0.0 -> 1.0.1)
+  # - Removing rule: MAJOR (1.0.0 -> 2.0.0)
+  # - Changing rule impact level: MINOR (1.0.0 -> 1.1.0)
+---
+
+# {{SKILL_DISPLAY_NAME}}
+
+{{ABSTRACT}}
+
+## When to Apply
+
+<!--
+  IMPORTANT: This section determines when AI assistants activate this skill.
+  Write clear, specific trigger conditions that help AI decide relevance.
+
+  Guidelines:
+  - Use action-oriented phrases ("Building...", "Working with...", "Optimizing...")
+  - Include technology keywords (React Native, Expo, TypeScript, etc.)
+  - Mention specific tasks or patterns (list performance, animations, etc.)
+  - Be specific but not overly restrictive
+
+  Example triggers:
+  - "Building React Native or Expo applications"
+  - "Optimizing list and scroll performance"
+  - "Implementing animations with Reanimated"
+  - "Reviewing code for performance issues"
+-->
+
+Reference these guidelines when:
+
+- {{TRIGGER_1}}
+- {{TRIGGER_2}}
+- {{TRIGGER_3}}
+
+## Rule Categories by Priority
+
+| Priority | Category | Impact | Prefix |
+|----------|----------|--------|--------|
+| 1 | {{CATEGORY_1}} | {{IMPACT_1}} | `{{PREFIX_1}}-` |
+| 2 | {{CATEGORY_2}} | {{IMPACT_2}} | `{{PREFIX_2}}-` |
+
+## Quick Reference
+
+### 1. {{CATEGORY_1}} ({{IMPACT_1}})
+
+- `{{PREFIX_1}}-{{RULE_1}}` - {{RULE_1_DESC}}
+- `{{PREFIX_1}}-{{RULE_2}}` - {{RULE_2_DESC}}
+
+### 2. {{CATEGORY_2}} ({{IMPACT_2}})
+
+- `{{PREFIX_2}}-{{RULE_3}}` - {{RULE_3_DESC}}
+
+## How to Use
+
+Read individual rule files for detailed explanations and code examples:
+
+```
+rules/[rule-name].md
+```
+
+Each rule file contains:
+
+- Brief explanation of why it matters
+- Incorrect code example with explanation
+- Correct code example with explanation
+- Additional context and references
+
+## Full Compiled Document
+
+For the complete guide with all rules expanded: `AGENTS.md`
+
+---
+
+## AI Context Loading
+
+<!--
+  This section helps AI assistants understand how to use this skill.
+  Do not remove this section.
+-->
+
+**When to load this skill:**
+- Check SKILL.md description for relevance to current task
+- Match "When to Apply" triggers with user request
+- Consider rule tags when searching for specific guidance
+
+**How to apply rules:**
+1. Identify the category most relevant to the current task
+2. Apply CRITICAL and HIGH impact rules first
+3. Check for alternatives when multiple approaches exist
+4. Reference the full AGENTS.md for comprehensive context

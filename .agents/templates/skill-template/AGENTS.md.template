@@ -1,0 +1,108 @@
+# {{SKILL_DISPLAY_NAME}}
+
+**Version {{VERSION}}**
+{{AUTHOR}}
+{{DATE}}
+
+> **Note:**
+> This document is mainly for agents and LLMs to follow when maintaining,
+> generating, or refactoring codebases. Humans may also find it useful, but
+> guidance here is optimized for automation and consistency by AI-assisted
+> workflows.
+
+---
+
+## Abstract
+
+{{ABSTRACT}}
+
+---
+
+## Rule Priority
+
+<!--
+  Rules are organized by impact level. When multiple rules could apply,
+  follow this priority order:
+
+  CRITICAL > HIGH > MEDIUM > LOW
+
+  Within the same impact level, apply the more specific rule first.
+-->
+
+| Impact | Description | Action |
+|--------|-------------|--------|
+| **CRITICAL** | Violations cause crashes or data loss | Must fix immediately |
+| **HIGH** | Significant performance or UX impact | Should fix in current PR |
+| **MEDIUM** | Code quality and maintainability | Fix when touching the file |
+| **LOW** | Micro-optimizations and style | Nice to have |
+
+---
+
+## Table of Contents
+
+1. [{{CATEGORY_1}}](#1-{{CATEGORY_1_SLUG}}) - **{{IMPACT_1}}**
+   - 1.1 [{{RULE_1_TITLE}}](#11-{{RULE_1_SLUG}})
+   - 1.2 [{{RULE_2_TITLE}}](#12-{{RULE_2_SLUG}})
+2. [{{CATEGORY_2}}](#2-{{CATEGORY_2_SLUG}}) - **{{IMPACT_2}}**
+   - 2.1 [{{RULE_3_TITLE}}](#21-{{RULE_3_SLUG}})
+
+---
+
+## 1. {{CATEGORY_1}}
+
+**Impact: {{IMPACT_1}}**
+
+{{CATEGORY_1_DESCRIPTION}}
+
+### 1.1 {{RULE_1_TITLE}}
+
+**Impact: {{IMPACT_1}} ({{RULE_1_IMPACT_DESC}})**
+
+{{RULE_1_DESCRIPTION}}
+
+**Incorrect: {{RULE_1_INCORRECT_REASON}}**
+
+```{{LANGUAGE}}
+{{RULE_1_INCORRECT_CODE}}
+```
+
+**Correct: {{RULE_1_CORRECT_REASON}}**
+
+```{{LANGUAGE}}
+{{RULE_1_CORRECT_CODE}}
+```
+
+{{RULE_1_ADDITIONAL_CONTEXT}}
+
+---
+
+## 2. {{CATEGORY_2}}
+
+**Impact: {{IMPACT_2}}**
+
+{{CATEGORY_2_DESCRIPTION}}
+
+### 2.1 {{RULE_3_TITLE}}
+
+**Impact: {{IMPACT_2}} ({{RULE_3_IMPACT_DESC}})**
+
+{{RULE_3_DESCRIPTION}}
+
+**Incorrect: {{RULE_3_INCORRECT_REASON}}**
+
+```{{LANGUAGE}}
+{{RULE_3_INCORRECT_CODE}}
+```
+
+**Correct: {{RULE_3_CORRECT_REASON}}**
+
+```{{LANGUAGE}}
+{{RULE_3_CORRECT_CODE}}
+```
+
+---
+
+## References
+
+1. [Reference 1]({{REF_1_URL}})
+2. [Reference 2]({{REF_2_URL}})
