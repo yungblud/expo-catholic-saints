@@ -23,12 +23,12 @@
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Create Expo project with TypeScript template using `npx create-expo-app`
-- [ ] T002 Install core dependencies (tinybase, fuse.js, zod) in package.json
-- [ ] T003 [P] Install and configure NativeWind with tailwind.config.js
-- [ ] T004 [P] Configure Jest and React Native Testing Library in jest.config.js
-- [ ] T005 [P] Setup ESLint and Prettier configuration in .eslintrc.js and .prettierrc
-- [ ] T006 Create project directory structure per plan.md (app/, components/, lib/, data/)
+- [x] T001 Create Expo project with TypeScript template using `npx create-expo-app`
+- [x] T002 Install core dependencies (tinybase, fuse.js, zod) in package.json
+- [x] T003 [P] Install and configure NativeWind with tailwind.config.js
+- [x] T004 [P] Configure Jest and React Native Testing Library in jest.config.js
+- [x] T005 [P] Setup ESLint and Prettier configuration in .eslintrc.js and .prettierrc
+- [x] T006 Create project directory structure per plan.md (app/, components/, lib/, data/)
 
 ---
 
