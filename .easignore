@@ -1,0 +1,49 @@
+# EAS Build Ignore File
+# Files and directories listed here will be excluded from EAS builds
+
+# Development files
+.git
+.github
+.vscode
+.cursor
+.idea
+
+# Documentation
+docs/
+specs/
+*.md
+!README.md
+
+# Test files
+__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+coverage/
+jest.config.js
+
+# Environment files (use EAS secrets instead)
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+dist/
+build/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (handled by EAS)
+# node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Agent files
+.agents/
