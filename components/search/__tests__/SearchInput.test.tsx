@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, fireEvent, waitFor } from '@testing-library/react-native';
+import { render, fireEvent } from '@testing-library/react-native';
 import { SearchInput } from '@/components/search/SearchInput';
 
 describe('SearchInput', () => {
@@ -45,9 +45,7 @@ describe('SearchInput', () => {
   });
 
   it('should have correct accessibility label', () => {
-    const { getByLabelText } = render(
-      <SearchInput value="" onChangeText={jest.fn()} />
-    );
+    const { getByLabelText } = render(<SearchInput value="" onChangeText={jest.fn()} />);
     expect(getByLabelText('검색')).toBeTruthy();
   });
 });

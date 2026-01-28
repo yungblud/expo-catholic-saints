@@ -42,9 +42,7 @@ export function SaintCard({
         <Text style={styles.name} numberOfLines={1}>
           {saint.nameKo}
         </Text>
-        <Text style={styles.feastDay}>
-          {formatFeastDayKo(saint.feastMonth, saint.feastDay)}
-        </Text>
+        <Text style={styles.feastDay}>{formatFeastDayKo(saint.feastMonth, saint.feastDay)}</Text>
         {saint.patronages.length > 0 && (
           <Text style={styles.patronages} numberOfLines={1}>
             {saint.patronages.slice(0, 3).join(' · ')}

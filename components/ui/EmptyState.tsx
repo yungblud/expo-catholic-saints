@@ -9,12 +9,7 @@ interface EmptyStateProps {
   testID?: string;
 }
 
-export function EmptyState({
-  title,
-  message,
-  icon = 'search-outline',
-  testID,
-}: EmptyStateProps) {
+export function EmptyState({ title, message, icon = 'search-outline', testID }: EmptyStateProps) {
   return (
     <View style={styles.container} testID={testID}>
       <Ionicons name={icon} size={64} color="#9ca3af" style={styles.icon} />

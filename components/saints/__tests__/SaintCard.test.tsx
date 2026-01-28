@@ -22,23 +22,17 @@ const mockSaint: Saint = {
 
 describe('SaintCard', () => {
   it('should render saint name in Korean', () => {
-    const { getByText } = render(
-      <SaintCard saint={mockSaint} onPress={jest.fn()} />
-    );
+    const { getByText } = render(<SaintCard saint={mockSaint} onPress={jest.fn()} />);
     expect(getByText('아시시의 성 프란치스코')).toBeTruthy();
   });
 
   it('should render feast day', () => {
-    const { getByText } = render(
-      <SaintCard saint={mockSaint} onPress={jest.fn()} />
-    );
+    const { getByText } = render(<SaintCard saint={mockSaint} onPress={jest.fn()} />);
     expect(getByText('10월 4일')).toBeTruthy();
   });
 
   it('should render avatar with initials', () => {
-    const { getByText } = render(
-      <SaintCard saint={mockSaint} onPress={jest.fn()} />
-    );
+    const { getByText } = render(<SaintCard saint={mockSaint} onPress={jest.fn()} />);
     expect(getByText('프')).toBeTruthy();
   });
 
@@ -62,11 +56,7 @@ describe('SaintCard', () => {
   it('should call onFavoriteToggle when favorite button is pressed', () => {
     const onFavoriteToggle = jest.fn();
     const { getByTestId } = render(
-      <SaintCard
-        saint={mockSaint}
-        onPress={jest.fn()}
-        onFavoriteToggle={onFavoriteToggle}
-      />
+      <SaintCard saint={mockSaint} onPress={jest.fn()} onFavoriteToggle={onFavoriteToggle} />
     );
 
     fireEvent.press(getByTestId('favorite-button'));
