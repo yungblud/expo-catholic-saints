@@ -9,7 +9,7 @@ import { Saint, SearchResult } from '@/lib/types/saints';
 
 export default function SearchScreen() {
   const router = useRouter();
-  const { results, query, search, clear } = useSearch({ mode: 'name', limit: 50 });
+  const { results, query, search } = useSearch({ mode: 'name', limit: 50 });
 
   const handleSaintPress = useCallback(
     (saint: Saint) => {

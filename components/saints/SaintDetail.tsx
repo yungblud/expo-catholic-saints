@@ -20,9 +20,7 @@ export function SaintDetail({ saint, isFavorite, onFavoriteToggle }: SaintDetail
         <SaintAvatar initials={saint.initials} size="large" />
         <Text style={styles.nameKo}>{saint.nameKo}</Text>
         <Text style={styles.nameEn}>{saint.nameEn}</Text>
-        {saint.nameLatin && (
-          <Text style={styles.nameLatin}>{saint.nameLatin}</Text>
-        )}
+        {saint.nameLatin && <Text style={styles.nameLatin}>{saint.nameLatin}</Text>}
       </View>
 
       {/* Favorite Button */}
@@ -52,9 +50,7 @@ export function SaintDetail({ saint, isFavorite, onFavoriteToggle }: SaintDetail
             <Ionicons name="calendar" size={20} color="#0ea5e9" />
             <Text style={styles.infoLabel}>축일</Text>
           </View>
-          <Text style={styles.infoValue}>
-            {formatFeastDayKo(saint.feastMonth, saint.feastDay)}
-          </Text>
+          <Text style={styles.infoValue}>{formatFeastDayKo(saint.feastMonth, saint.feastDay)}</Text>
         </View>
 
         {/* Life Years */}

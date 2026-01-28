@@ -46,11 +46,7 @@ export default function SaintDetailScreen() {
   return (
     <View style={styles.container}>
       <Stack.Screen options={{ title: saint.shortName }} />
-      <SaintDetail
-        saint={saint}
-        isFavorite={isFavorite}
-        onFavoriteToggle={handleFavoriteToggle}
-      />
+      <SaintDetail saint={saint} isFavorite={isFavorite} onFavoriteToggle={handleFavoriteToggle} />
     </View>
   );
 }
