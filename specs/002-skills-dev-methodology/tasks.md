@@ -25,11 +25,11 @@
 
 **Purpose**: Create base directory structure and template scaffolding
 
-- [ ] T001 Create templates directory structure at `.agents/templates/skill-template/`
-- [ ] T002 [P] Create SKILL.md.template in `.agents/templates/skill-template/SKILL.md.template`
-- [ ] T003 [P] Create AGENTS.md.template in `.agents/templates/skill-template/AGENTS.md.template`
-- [ ] T004 [P] Create rule-template.md in `.agents/templates/skill-template/rules/rule-template.md`
-- [ ] T005 Create templates README at `.agents/templates/README.md`
+- [x] T001 Create templates directory structure at `.agents/templates/skill-template/`
+- [x] T002 [P] Create SKILL.md.template in `.agents/templates/skill-template/SKILL.md.template`
+- [x] T003 [P] Create AGENTS.md.template in `.agents/templates/skill-template/AGENTS.md.template`
+- [x] T004 [P] Create rule-template.md in `.agents/templates/skill-template/rules/rule-template.md`
+- [x] T005 Create templates README at `.agents/templates/README.md`
 
 ---
 
@@ -39,9 +39,9 @@
 
 **Note**: This phase verifies the existing `vercel-react-native-skills` as the reference implementation before creating templates based on it.
 
-- [ ] T006 Verify vercel-react-native-skills SKILL.md matches schema at `.agents/skills/vercel-react-native-skills/SKILL.md`
-- [ ] T007 Verify vercel-react-native-skills AGENTS.md structure at `.agents/skills/vercel-react-native-skills/AGENTS.md`
-- [ ] T008 Verify at least 5 rule files follow rule-md-schema at `.agents/skills/vercel-react-native-skills/rules/`
+- [x] T006 Verify vercel-react-native-skills SKILL.md matches schema at `.agents/skills/vercel-react-native-skills/SKILL.md`
+- [x] T007 Verify vercel-react-native-skills AGENTS.md structure at `.agents/skills/vercel-react-native-skills/AGENTS.md`
+- [x] T008 Verify at least 5 rule files follow rule-md-schema at `.agents/skills/vercel-react-native-skills/rules/`
 
 **Checkpoint**: Reference model validated - template creation can proceed
 
@@ -55,11 +55,11 @@
 
 ### Implementation for User Story 1
 
-- [ ] T009 [US1] Write skill installation guide section in `.agents/templates/README.md`
-- [ ] T010 [US1] Document directory structure requirements in `.agents/templates/README.md`
-- [ ] T011 [P] [US1] Create example skill installation script at `.agents/templates/install-skill.sh` (optional)
-- [ ] T012 [US1] Add "When to Apply" section guidance in `.agents/templates/skill-template/SKILL.md.template`
-- [ ] T013 [US1] Document multi-skill installation in `.agents/templates/README.md`
+- [x] T009 [US1] Write skill installation guide section in `.agents/templates/README.md`
+- [x] T010 [US1] Document directory structure requirements in `.agents/templates/README.md`
+- [x] T011 [P] [US1] Create example skill installation script at `.agents/templates/install-skill.sh` (optional)
+- [x] T012 [US1] Add "When to Apply" section guidance in `.agents/templates/skill-template/SKILL.md.template`
+- [x] T013 [US1] Document multi-skill installation in `.agents/templates/README.md`
 
 **Checkpoint**: User Story 1 complete - skills can be installed and recognized by AI
 
@@ -73,11 +73,11 @@
 
 ### Implementation for User Story 2
 
-- [ ] T014 [US2] Create skill activation trigger documentation in `.agents/templates/README.md`
-- [ ] T015 [P] [US2] Add rule priority examples in `.agents/templates/skill-template/AGENTS.md.template`
-- [ ] T016 [P] [US2] Create Incorrect/Correct code example template in `.agents/templates/skill-template/rules/rule-template.md`
-- [ ] T017 [US2] Document impact level usage (CRITICAL/HIGH/MEDIUM/LOW) in `.agents/templates/README.md`
-- [ ] T018 [US2] Add skill context loading guidance for AI assistants in `.agents/templates/skill-template/SKILL.md.template`
+- [x] T014 [US2] Create skill activation trigger documentation in `.agents/templates/README.md`
+- [x] T015 [P] [US2] Add rule priority examples in `.agents/templates/skill-template/AGENTS.md.template`
+- [x] T016 [P] [US2] Create Incorrect/Correct code example template in `.agents/templates/skill-template/rules/rule-template.md`
+- [x] T017 [US2] Document impact level usage (CRITICAL/HIGH/MEDIUM/LOW) in `.agents/templates/README.md`
+- [x] T018 [US2] Add skill context loading guidance for AI assistants in `.agents/templates/skill-template/SKILL.md.template`
 
 **Checkpoint**: User Story 2 complete - AI actively applies skill rules during development
 
@@ -91,14 +91,14 @@
 
 ### Implementation for User Story 3
 
-- [ ] T019 [US3] Complete SKILL.md.template with all required sections at `.agents/templates/skill-template/SKILL.md.template`
-- [ ] T020 [US3] Complete AGENTS.md.template structure at `.agents/templates/skill-template/AGENTS.md.template`
-- [ ] T021 [US3] Complete rule-template.md with YAML frontmatter at `.agents/templates/skill-template/rules/rule-template.md`
-- [ ] T022 [P] [US3] Create example custom skill: project-conventions at `.agents/skills/project-conventions/`
-- [ ] T023 [P] [US3] Create SKILL.md for project-conventions at `.agents/skills/project-conventions/SKILL.md`
-- [ ] T024 [P] [US3] Create AGENTS.md for project-conventions at `.agents/skills/project-conventions/AGENTS.md`
-- [ ] T025 [US3] Create sample rule file at `.agents/skills/project-conventions/rules/naming-components.md`
-- [ ] T026 [US3] Document custom skill creation workflow in `.agents/templates/README.md`
+- [x] T019 [US3] Complete SKILL.md.template with all required sections at `.agents/templates/skill-template/SKILL.md.template`
+- [x] T020 [US3] Complete AGENTS.md.template structure at `.agents/templates/skill-template/AGENTS.md.template`
+- [x] T021 [US3] Complete rule-template.md with YAML frontmatter at `.agents/templates/skill-template/rules/rule-template.md`
+- [x] T022 [P] [US3] Create example custom skill: project-conventions at `.agents/skills/project-conventions/`
+- [x] T023 [P] [US3] Create SKILL.md for project-conventions at `.agents/skills/project-conventions/SKILL.md`
+- [x] T024 [P] [US3] Create AGENTS.md for project-conventions at `.agents/skills/project-conventions/AGENTS.md`
+- [x] T025 [US3] Create sample rule file at `.agents/skills/project-conventions/rules/naming-components.md`
+- [x] T026 [US3] Document custom skill creation workflow in `.agents/templates/README.md`
 
 **Checkpoint**: User Story 3 complete - custom skills can be created using templates
 
@@ -112,12 +112,12 @@
 
 ### Implementation for User Story 4
 
-- [ ] T027 [US4] Add versioning guidance in SKILL.md.template at `.agents/templates/skill-template/SKILL.md.template`
-- [ ] T028 [US4] Document Git submodule installation method in `.agents/templates/README.md`
-- [ ] T029 [P] [US4] Document npm package installation method in `.agents/templates/README.md`
-- [ ] T030 [US4] Create skill changelog template at `.agents/templates/skill-template/CHANGELOG.md.template`
-- [ ] T031 [US4] Document skill conflict resolution (priority-based) in `.agents/templates/README.md`
-- [ ] T032 [US4] Add skill deprecation guidance in `.agents/templates/README.md`
+- [x] T027 [US4] Add versioning guidance in SKILL.md.template at `.agents/templates/skill-template/SKILL.md.template`
+- [x] T028 [US4] Document Git submodule installation method in `.agents/templates/README.md`
+- [x] T029 [P] [US4] Document npm package installation method in `.agents/templates/README.md`
+- [x] T030 [US4] Create skill changelog template at `.agents/templates/skill-template/CHANGELOG.md.template`
+- [x] T031 [US4] Document skill conflict resolution (priority-based) in `.agents/templates/README.md`
+- [x] T032 [US4] Add skill deprecation guidance in `.agents/templates/README.md`
 
 **Checkpoint**: User Story 4 complete - skills can be versioned and shared
 
@@ -127,11 +127,11 @@
 
 **Purpose**: Final documentation and validation
 
-- [ ] T033 [P] Update quickstart.md with actual file paths at `specs/002-skills-dev-methodology/quickstart.md`
-- [ ] T034 [P] Validate all template files against schema contracts
-- [ ] T035 Review and update CLAUDE.md with skills methodology at `/Volumes/T7/dev/expo-catholic-saints/CLAUDE.md`
-- [ ] T036 Create methodology summary document at `.agents/README.md`
-- [ ] T037 Manual validation: Test AI skill recognition with project-conventions skill
+- [x] T033 [P] Update quickstart.md with actual file paths at `specs/002-skills-dev-methodology/quickstart.md`
+- [x] T034 [P] Validate all template files against schema contracts
+- [x] T035 Review and update CLAUDE.md with skills methodology at `/Volumes/T7/dev/expo-catholic-saints/CLAUDE.md`
+- [x] T036 Create methodology summary document at `.agents/README.md`
+- [x] T037 Manual validation: Test AI skill recognition with project-conventions skill
 
 ---
 

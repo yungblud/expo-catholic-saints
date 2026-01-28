@@ -179,3 +179,33 @@ function SaintListItem({ saint }: { saint: Saint }) { ... }
 - [data-model.md](./data-model.md) - 상세 데이터 모델
 - [contracts/skill-md-schema.md](./contracts/skill-md-schema.md) - SKILL.md 스키마
 - [contracts/rule-md-schema.md](./contracts/rule-md-schema.md) - Rule 파일 스키마
+
+---
+
+## 실제 파일 경로
+
+이 방법론의 구현 파일들:
+
+```
+.agents/
+├── skills/
+│   ├── vercel-react-native-skills/   # 참조 모델 (35+ 규칙)
+│   │   ├── SKILL.md
+│   │   ├── AGENTS.md
+│   │   └── rules/
+│   └── project-conventions/          # 예제 커스텀 skill
+│       ├── SKILL.md
+│       ├── AGENTS.md
+│       └── rules/
+│           └── naming-components.md
+├── templates/
+│   ├── skill-template/
+│   │   ├── SKILL.md.template
+│   │   ├── AGENTS.md.template
+│   │   ├── CHANGELOG.md.template
+│   │   └── rules/
+│   │       └── rule-template.md
+│   ├── install-skill.sh
+│   └── README.md                     # 상세 가이드
+└── README.md                         # 방법론 개요
+```

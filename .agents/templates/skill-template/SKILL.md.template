@@ -6,6 +6,16 @@ license: MIT
 metadata:
   author: {{AUTHOR}}
   version: '1.0.0'
+  # Versioning Guide:
+  # - MAJOR: Breaking changes (rule removal, incompatible changes)
+  # - MINOR: New rules or significant expansions
+  # - PATCH: Bug fixes, clarifications, example updates
+  #
+  # When to bump version:
+  # - Adding new rule: MINOR (1.0.0 -> 1.1.0)
+  # - Fixing rule example: PATCH (1.0.0 -> 1.0.1)
+  # - Removing rule: MAJOR (1.0.0 -> 2.0.0)
+  # - Changing rule impact level: MINOR (1.0.0 -> 1.1.0)
 ---
 
 # {{SKILL_DISPLAY_NAME}}
