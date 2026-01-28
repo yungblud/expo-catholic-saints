@@ -15,12 +15,12 @@ import { z } from 'zod';
 // =============================================================================
 
 export const PATRONAGE_CATEGORIES = [
-  'occupation',  // 직업
-  'location',    // 지역/국가
-  'situation',   // 상황
-  'illness',     // 질병
-  'cause',       // 대의
-  'other',       // 기타
+  'occupation', // 직업
+  'location', // 지역/국가
+  'situation', // 상황
+  'illness', // 질병
+  'cause', // 대의
+  'other', // 기타
 ] as const;
 
 export type PatronageCategory = (typeof PATRONAGE_CATEGORIES)[number];
@@ -92,7 +92,7 @@ export interface SearchOptions {
 
 export interface SearchResult {
   saint: Saint;
-  score: number;        // 0-1, higher is better match
+  score: number; // 0-1, higher is better match
   matchedField: string; // Which field matched (nameKo, nameEn, etc.)
 }
 

@@ -19,27 +19,21 @@ export default function TabLayout() {
         name="index"
         options={{
           title: '오늘의 성인',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="calendar" size={size} color={color} />
-          ),
+          tabBarIcon: ({ color, size }) => <Ionicons name="calendar" size={size} color={color} />,
         }}
       />
       <Tabs.Screen
         name="search"
         options={{
           title: '검색',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="search" size={size} color={color} />
-          ),
+          tabBarIcon: ({ color, size }) => <Ionicons name="search" size={size} color={color} />,
         }}
       />
       <Tabs.Screen
         name="favorites"
         options={{
           title: '즐겨찾기',
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="heart" size={size} color={color} />
-          ),
+          tabBarIcon: ({ color, size }) => <Ionicons name="heart" size={size} color={color} />,
         }}
       />
     </Tabs>
