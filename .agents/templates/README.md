@@ -169,6 +169,65 @@ Reference these guidelines when:
 tags: react-native, lists, performance, virtualization
 ```
 
+## 커스텀 Skill 생성
+
+### Step 1: 디렉토리 생성
+
+```bash
+mkdir -p .agents/skills/my-custom-skill/rules
+```
+
+### Step 2: SKILL.md 작성
+
+`skill-template/SKILL.md.template`을 복사하여 수정합니다:
+
+```bash
+cp .agents/templates/skill-template/SKILL.md.template .agents/skills/my-custom-skill/SKILL.md
+```
+
+필수 수정 항목:
+
+- `name`: skill 디렉토리 이름과 일치
+- `description`: AI가 skill을 선택하는 데 사용할 키워드 포함
+- `metadata.version`: 시맨틱 버저닝
+- `## When to Apply`: 구체적인 활성화 조건
+
+### Step 3: 규칙 파일 작성
+
+`skill-template/rules/rule-template.md`를 참고하여 규칙을 작성합니다:
+
+```bash
+cp .agents/templates/skill-template/rules/rule-template.md \
+   .agents/skills/my-custom-skill/rules/category-topic.md
+```
+
+규칙 파일 체크리스트:
+
+- [ ] YAML frontmatter 완성 (title, impact, impactDescription, tags)
+- [ ] Incorrect 예제 포함
+- [ ] Correct 예제 포함
+- [ ] 파일명이 `[category]-[topic].md` 패턴
+
+### Step 4: AGENTS.md 생성 (선택)
+
+대용량 skill의 경우 모든 규칙을 컴파일한 AGENTS.md를 생성합니다:
+
+```bash
+# 수동으로 rules/*.md 내용을 AGENTS.md에 통합
+# 또는 빌드 스크립트 사용
+```
+
+### Step 5: 검증
+
+AI 어시스턴트에게 skill 관련 작업을 요청하여 인식 여부 확인:
+
+```
+"What coding conventions should I follow in this project?"
+→ AI should reference project-conventions skill
+```
+
+---
+
 ---
 
 ## Skill 활성화 트리거
@@ -202,6 +261,125 @@ description: |
 3. 각 skill의 `SKILL.md` 읽기
 4. 현재 작업과 관련된 skill 선택
 5. 선택된 skill의 `AGENTS.md` 또는 `rules/` 파일 로드
+
+---
+
+## Skill 버전 관리
+
+### 시맨틱 버저닝
+
+Skill은 [Semantic Versioning](https://semver.org/)을 따릅니다:
+
+| 변경 유형              | 버전 변경             | 예시                |
+| ---------------------- | --------------------- | ------------------- |
+| 규칙 제거, 호환성 깨짐 | MAJOR (1.0.0 → 2.0.0) | CRITICAL 규칙 삭제  |
+| 새 규칙 추가           | MINOR (1.0.0 → 1.1.0) | 새 카테고리 추가    |
+| 예제 수정, 오타        | PATCH (1.0.0 → 1.0.1) | 코드 예제 버그 수정 |
+
+### CHANGELOG 유지
+
+변경사항을 `CHANGELOG.md`에 기록합니다:
+
+```markdown
+## [1.1.0] - 2026-02-15
+
+### Added
+
+- `security-input-validation` - Input validation rule
+
+### Changed
+
+- `naming-components` - Updated examples for React 19
+```
+
+---
+
+## Skill 공유
+
+### 방법 1: Git 서브모듈
+
+```bash
+# 설치
+git submodule add https://github.com/org/skill-repo .agents/skills/skill-name
+
+# 업데이트
+git submodule update --remote .agents/skills/skill-name
+```
+
+### 방법 2: npm 패키지
+
+```bash
+# 설치
+npm install @org/skill-name
+ln -s node_modules/@org/skill-name .agents/skills/skill-name
+
+# package.json에 설치 스크립트 추가
+{
+  "scripts": {
+    "postinstall": "ln -sf node_modules/@org/skill-name .agents/skills/skill-name"
+  }
+}
+```
+
+### 방법 3: 직접 복사
+
+```bash
+cp -r path/to/skill .agents/skills/
+```
+
+---
+
+## 규칙 충돌 해결
+
+### 우선순위 규칙
+
+여러 skill의 규칙이 충돌할 때:
+
+1. **Impact level 우선**: CRITICAL > HIGH > MEDIUM > LOW
+2. **구체성 우선**: 더 구체적인 규칙이 일반적인 규칙보다 우선
+3. **명시적 오버라이드**: 프로젝트 skill이 외부 skill보다 우선
+
+### 충돌 예시
+
+```
+vercel-react-native-skills: "Use FlashList for all lists"
+project-conventions: "Use LegendList for lists under 50 items"
+
+→ project-conventions 규칙이 더 구체적이므로 우선 적용
+```
+
+---
+
+## Skill Deprecation
+
+규칙을 제거할 때는 단계적으로 진행합니다:
+
+### Step 1: Deprecation 표시 (MINOR 버전)
+
+```yaml
+---
+title: Old Rule Name
+impact: LOW
+deprecated: true
+deprecatedMessage: Use `new-rule-name` instead. Will be removed in v2.0.0
+---
+```
+
+### Step 2: 제거 (MAJOR 버전)
+
+CHANGELOG에 마이그레이션 가이드 포함:
+
+```markdown
+## [2.0.0] - 2026-03-01
+
+### Removed
+
+- `old-rule-name` - Replaced by `new-rule-name`
+
+### Migration
+
+- Replace usages of `old-rule-name` with `new-rule-name`
+```
 
 ---
 
