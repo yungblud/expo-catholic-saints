@@ -226,9 +226,135 @@ eas build --clear-cache
 
 ---
 
+## iOS 설정 가이드
+
+### Apple Developer 계정 연결
+
+1. [Apple Developer Program](https://developer.apple.com/programs/)에 가입 (연간 $99)
+2. EAS에서 첫 iOS 빌드 시 Apple 계정 연결 프롬프트 표시
+3. 또는 수동으로 연결:
+
+```bash
+eas credentials --platform ios
+```
+
+4. "Log in to your Apple Developer account" 선택
+5. Apple ID와 앱 비밀번호 입력 (2FA 사용 시 앱 비밀번호 필요)
+
+### iOS 테스트 디바이스 등록 (Ad Hoc 배포)
+
+내부 테스터의 iOS 디바이스에 preview 빌드를 설치하려면 UDID 등록이 필요합니다.
+
+```bash
+# 디바이스 등록 URL 생성
+eas device:create
+
+# 등록된 디바이스 목록 확인
+eas device:list
+```
+
+테스터에게 등록 URL을 공유하면:
+
+1. Safari에서 프로필 다운로드
+2. 설정 > 일반 > VPN 및 디바이스 관리에서 프로필 설치
+3. UDID가 자동으로 EAS에 등록됨
+
+새 디바이스 등록 후 preview 빌드를 다시 생성해야 합니다.
+
+---
+
+## Android 설정 가이드
+
+### Android 키스토어 관리
+
+EAS는 기본적으로 키스토어를 자동 생성하고 관리합니다.
+
+```bash
+# 자격 증명 확인
+eas credentials --platform android
+```
+
+### Google Play App Signing 연동
+
+1. Google Play Console에서 앱 생성
+2. App Signing 설정 > "Use Google-generated key" 선택
+3. EAS에서 첫 production 빌드 시 업로드 키 자동 생성
+4. 또는 기존 키스토어 업로드:
+
+```bash
+eas credentials --platform android
+# "Upload a keystore" 선택
+```
+
+### 기존 키스토어 마이그레이션
+
+기존 앱의 키스토어를 EAS로 마이그레이션하려면:
+
+```bash
+eas credentials --platform android
+# "Upload a keystore" 선택 후 .jks 또는 .keystore 파일 업로드
+```
+
+---
+
+## EAS Secrets 관리
+
+민감한 환경 변수는 EAS Secrets로 관리합니다.
+
+```bash
+# Secret 생성
+eas secret:create --name API_KEY --value "your-secret-value" --scope project
+
+# Secret 목록 확인
+eas secret:list
+
+# Secret 삭제
+eas secret:delete API_KEY
+```
+
+Secrets는 빌드 시 자동으로 환경 변수로 주입됩니다.
+
+---
+
+## 추가 트러블슈팅
+
+### Expo 계정 인증 문제
+
+```bash
+# 로그아웃 후 재로그인
+eas logout
+eas login
+```
+
+### iOS 프로비저닝 프로필 문제
+
+```bash
+# 프로비저닝 프로필 재생성
+eas credentials --platform ios
+# "Delete your provisioning profile" 선택 후 다음 빌드 시 자동 재생성
+```
+
+### Android 빌드 Gradle 오류
+
+```bash
+# 캐시 클리어 후 빌드
+eas build --platform android --clear-cache
+```
+
+### 네이티브 모듈 호환성 문제
+
+```bash
+# 로컬에서 빌드 테스트
+npx expo prebuild --clean
+npx expo run:android  # 또는 run:ios
+```
+
+---
+
 ## 참고 문서
 
 - [EAS Build 공식 문서](https://docs.expo.dev/build/introduction/)
 - [EAS Update 공식 문서](https://docs.expo.dev/eas-update/introduction/)
+- [EAS Credentials 가이드](https://docs.expo.dev/app-signing/managed-credentials/)
 - [data-model.md](./data-model.md) - eas.json 구조
 - [contracts/eas-json-schema.md](./contracts/eas-json-schema.md) - 설정 스키마
