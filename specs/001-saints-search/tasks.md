@@ -40,22 +40,22 @@
 
 ### Tests for Foundational
 
-- [ ] T007 [P] Unit test for Saint type validation in lib/store/__tests__/saints.test.ts
-- [ ] T008 [P] Unit test for dateUtils functions in lib/utils/__tests__/dateUtils.test.ts
-- [ ] T009 [P] Unit test for stringUtils functions in lib/utils/__tests__/stringUtils.test.ts
+- [x] T007 [P] Unit test for Saint type validation in lib/store/__tests__/saints.test.ts
+- [x] T008 [P] Unit test for dateUtils functions in lib/utils/__tests__/dateUtils.test.ts
+- [x] T009 [P] Unit test for stringUtils functions in lib/utils/__tests__/stringUtils.test.ts
 
 ### Implementation for Foundational
 
-- [ ] T010 Create Saint and Favorite TypeScript types in lib/types/saints.ts (from contracts/)
-- [ ] T011 [P] Create patronage category constants in lib/constants/patronages.ts
-- [ ] T012 [P] Implement dateUtils (formatDate, getTodayMonthDay) in lib/utils/dateUtils.ts
-- [ ] T013 [P] Implement stringUtils (normalizeKorean, getInitials) in lib/utils/stringUtils.ts
-- [ ] T014 Create sample saints.json data file with 10+ saints in data/saints.json
-- [ ] T015 Initialize TinyBase store with saints table in lib/store/saints.ts
-- [ ] T016 [P] Create SaintAvatar component (initials placeholder) in components/saints/SaintAvatar.tsx
-- [ ] T017 [P] Create EmptyState component in components/ui/EmptyState.tsx
-- [ ] T018 [P] Create LoadingState component in components/ui/LoadingState.tsx
-- [ ] T019 Setup Expo Router root layout with tab navigation in app/_layout.tsx
+- [x] T010 Create Saint and Favorite TypeScript types in lib/types/saints.ts (from contracts/)
+- [x] T011 [P] Create patronage category constants in lib/constants/patronages.ts
+- [x] T012 [P] Implement dateUtils (formatDate, getTodayMonthDay) in lib/utils/dateUtils.ts
+- [x] T013 [P] Implement stringUtils (normalizeKorean, getInitials) in lib/utils/stringUtils.ts
+- [x] T014 Create sample saints.json data file with 10+ saints in data/saints.json
+- [x] T015 Initialize TinyBase store with saints table in lib/store/saints.ts
+- [x] T016 [P] Create SaintAvatar component (initials placeholder) in components/saints/SaintAvatar.tsx
+- [x] T017 [P] Create EmptyState component in components/ui/EmptyState.tsx
+- [x] T018 [P] Create LoadingState component in components/ui/LoadingState.tsx
+- [x] T019 Setup Expo Router root layout with tab navigation in app/_layout.tsx
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
