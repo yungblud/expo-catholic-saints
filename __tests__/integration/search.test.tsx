@@ -7,6 +7,9 @@
 import React from 'react';
 import { render, fireEvent, waitFor, screen } from '@testing-library/react-native';
 
+// Import after mocks
+import SearchScreen from '@/app/(tabs)/search';
+
 // Mock the saints store module
 jest.mock('@/lib/store/saints', () => {
   const mockSaints = [
@@ -90,9 +93,6 @@ jest.mock('expo-router', () => ({
 jest.mock('@expo/vector-icons', () => ({
   Ionicons: 'Ionicons',
 }));
-
-// Import after mocks
-import SearchScreen from '@/app/(tabs)/search';
 
 describe('Search Flow Integration', () => {
   beforeEach(() => {

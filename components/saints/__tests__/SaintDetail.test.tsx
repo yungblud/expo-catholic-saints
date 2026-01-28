@@ -13,7 +13,8 @@ const mockSaint: Saint = {
   feastDay: 4,
   patronages: ['동물', '환경', '이탈리아'],
   patronageCategories: ['cause', 'location'],
-  biography: '아시시의 성 프란치스코(1181/1182-1226)는 이탈리아의 수도자이자 프란치스코회의 창설자입니다. 부유한 상인의 아들로 태어났으나 모든 것을 버리고 가난과 청빈의 삶을 선택했습니다.',
+  biography:
+    '아시시의 성 프란치스코(1181/1182-1226)는 이탈리아의 수도자이자 프란치스코회의 창설자입니다. 부유한 상인의 아들로 태어났으나 모든 것을 버리고 가난과 청빈의 삶을 선택했습니다.',
   birthYear: 1182,
   deathYear: 1226,
   canonizationYear: 1228,
