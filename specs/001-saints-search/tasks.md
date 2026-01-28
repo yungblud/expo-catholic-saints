@@ -71,22 +71,22 @@
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T020 [P] [US1] Unit test for searchSaints function in lib/search/__tests__/searchSaints.test.ts
-- [ ] T021 [P] [US1] Component test for SearchInput in components/search/__tests__/SearchInput.test.tsx
-- [ ] T022 [P] [US1] Component test for SaintCard in components/saints/__tests__/SaintCard.test.tsx
-- [ ] T023 [P] [US1] Component test for SaintDetail in components/saints/__tests__/SaintDetail.test.tsx
-- [ ] T024 [US1] Integration test for search flow in __tests__/integration/search.test.tsx
+- [x] T020 [P] [US1] Unit test for searchSaints function in lib/search/__tests__/searchSaints.test.ts
+- [x] T021 [P] [US1] Component test for SearchInput in components/search/__tests__/SearchInput.test.tsx
+- [x] T022 [P] [US1] Component test for SaintCard in components/saints/__tests__/SaintCard.test.tsx
+- [x] T023 [P] [US1] Component test for SaintDetail in components/saints/__tests__/SaintDetail.test.tsx
+- [x] T024 [US1] Integration test for search flow in __tests__/integration/search.test.tsx
 
 ### Implementation for User Story 1
 
-- [ ] T025 [US1] Implement searchSaints with Fuse.js in lib/search/searchSaints.ts
-- [ ] T026 [US1] Create useSearch custom hook in lib/hooks/useSearch.ts
-- [ ] T027 [P] [US1] Create SearchInput component with debounce in components/search/SearchInput.tsx
-- [ ] T028 [P] [US1] Create SaintCard component in components/saints/SaintCard.tsx
-- [ ] T029 [US1] Create SaintDetail component in components/saints/SaintDetail.tsx
-- [ ] T030 [US1] Create search screen with list in app/(tabs)/search.tsx
-- [ ] T031 [US1] Create saint detail screen in app/saint/[id].tsx
-- [ ] T032 [US1] Add empty state handling for no search results in app/(tabs)/search.tsx
+- [x] T025 [US1] Implement searchSaints with Fuse.js in lib/search/searchSaints.ts
+- [x] T026 [US1] Create useSearch custom hook in lib/hooks/useSearch.ts
+- [x] T027 [P] [US1] Create SearchInput component with debounce in components/search/SearchInput.tsx
+- [x] T028 [P] [US1] Create SaintCard component in components/saints/SaintCard.tsx
+- [x] T029 [US1] Create SaintDetail component in components/saints/SaintDetail.tsx
+- [x] T030 [US1] Create search screen with list in app/(tabs)/search.tsx
+- [x] T031 [US1] Create saint detail screen in app/saint/[id].tsx
+- [x] T032 [US1] Add empty state handling for no search results in app/(tabs)/search.tsx
 
 **Checkpoint**: User Story 1 완료 - 이름 검색 및 상세 보기 기능이 독립적으로 작동
 
