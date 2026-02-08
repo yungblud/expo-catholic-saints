@@ -27,7 +27,6 @@ export default function SaintDetailScreen() {
   }, [id]);
 
   const handleFavoriteToggle = () => {
-    // setIsFavorite((prev) => !prev);
     if (!saint) return;
     toggleFavorite(saint.id);
   };
