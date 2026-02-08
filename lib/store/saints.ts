@@ -1,7 +1,7 @@
-import { createStore, Store } from 'tinybase';
 import saintsData from '@/data/saints.json';
-import { Saint, SaintsData, SaintSchema } from '@/lib/types/saints';
+import { Saint, SaintSchema, SaintsData } from '@/lib/types/saints';
 import { formatMonthDay } from '@/lib/utils/dateUtils';
+import { createStore, Store } from 'tinybase';
 
 // Create TinyBase store
 const store: Store = createStore();
