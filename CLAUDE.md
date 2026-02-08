@@ -4,6 +4,9 @@ Auto-generated from all feature plans. Last updated: 2026-01-28
 
 ## Active Technologies
 
+- TypeScript 5.x + Expo SDK 52+, React Native 0.76, expo-status-bar ~2.0.0, expo-router ~4.0.0, NativeWind 4.x (004-statusbar-color-scheme)
+- N/A (시스템 상태 참조만, 영속성 없음) (004-statusbar-color-scheme)
+
 - TypeScript 5.x, Expo SDK 52+ + EAS CLI, expo-dev-client, expo-updates (003-eas-build)
 - EAS Cloud (빌드 아티팩트, 자격 증명) (003-eas-build)
 
@@ -29,11 +32,11 @@ TypeScript 5.x: Follow standard conventions
 
 ## Recent Changes
 
+- 004-statusbar-color-scheme: Added TypeScript 5.x + Expo SDK 52+, React Native 0.76, expo-status-bar ~2.0.0, expo-router ~4.0.0, NativeWind 4.x
+
 - 003-eas-build: Added TypeScript 5.x, Expo SDK 52+ + EAS CLI, expo-dev-client, expo-updates
 
 - 002-skills-dev-methodology: Added Markdown (documentation), YAML (frontmatter metadata) + None (문서 기반 방법론)
-
-- 001-saints-search: Added TypeScript 5.x + Expo SDK 52+, React Native, Expo Router, TinyBase (local state/persistence)
 
 <!-- MANUAL ADDITIONS START -->
 <!-- MANUAL ADDITIONS END -->

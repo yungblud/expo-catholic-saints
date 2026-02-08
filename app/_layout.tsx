@@ -27,7 +27,7 @@ export default function RootLayout() {
 
   return (
     <>
-      <StatusBar style="auto" />
+      <StatusBar style="dark" />
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen
