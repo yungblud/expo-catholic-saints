@@ -1,5 +1,6 @@
 import '@/global.css';
 import { useEffect } from 'react';
+import { useColorScheme } from 'react-native';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
@@ -9,6 +10,8 @@ import { initializeSaintsStore } from '@/lib/store/saints';
 SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
+  const statusBarStyle = useColorScheme() === 'dark' ? 'light' : 'dark';
+
   useEffect(() => {
     async function initialize() {
       try {
@@ -27,7 +30,7 @@ export default function RootLayout() {
 
   return (
     <>
-      <StatusBar style="auto" />
+      <StatusBar style={statusBarStyle} />
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen

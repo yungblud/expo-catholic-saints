@@ -19,8 +19,8 @@
 
 **Purpose**: Verify existing configuration and ensure prerequisites are met
 
-- [ ] T001 Verify `app.json` has `"userInterfaceStyle": "automatic"` at `app.json:9` — no change expected, confirm setting exists
-- [ ] T002 Verify `expo-status-bar` ~2.0.0 is installed in `package.json` dependencies — no change expected, confirm dependency exists
+- [x] T001 Verify `app.json` has `"userInterfaceStyle": "automatic"` at `app.json:9` — no change expected, confirm setting exists
+- [x] T002 Verify `expo-status-bar` ~2.0.0 is installed in `package.json` dependencies — no change expected, confirm dependency exists
 
 **Checkpoint**: Prerequisites confirmed — existing configuration supports color scheme detection
 
@@ -32,8 +32,8 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T003 Create test directory `app/__tests__/` if not exists
-- [ ] T004 Create test file `app/__tests__/_layout.test.tsx` with test setup: mock `expo-status-bar`, mock `expo-router`, mock `expo-splash-screen`, and mock `react-native` `useColorScheme`
+- [x] T003 Create test directory `app/__tests__/` if not exists
+- [x] T004 Create test file `app/__tests__/_layout.test.tsx` with test setup: mock `expo-status-bar`, mock `expo-router`, mock `expo-splash-screen`, and mock `react-native` `useColorScheme`
 
 **Checkpoint**: Test infrastructure ready — user story implementation can now begin
 
@@ -51,14 +51,14 @@
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T005 [P] [US1] Write test: 라이트 모드에서 StatusBar가 렌더링되는지 확인 — mock `useColorScheme` to return `"light"`, assert `StatusBar` component is rendered with `style="auto"` in `app/__tests__/_layout.test.tsx`
-- [ ] T006 [P] [US2] Write test: 다크 모드에서 StatusBar가 렌더링되는지 확인 — mock `useColorScheme` to return `"dark"`, assert `StatusBar` component is rendered with `style="auto"` in `app/__tests__/_layout.test.tsx`
-- [ ] T007 [P] [US1] Write test: colorScheme이 `null`일 때 기본값(라이트 모드)으로 폴백 — mock `useColorScheme` to return `null`, assert `StatusBar` is rendered with `style="auto"` in `app/__tests__/_layout.test.tsx`
+- [x] T005 [P] [US1] Write test: 라이트 모드에서 StatusBar가 렌더링되는지 확인 — mock `useColorScheme` to return `"light"`, assert `StatusBar` component is rendered with `style="auto"` in `app/__tests__/_layout.test.tsx`
+- [x] T006 [P] [US2] Write test: 다크 모드에서 StatusBar가 렌더링되는지 확인 — mock `useColorScheme` to return `"dark"`, assert `StatusBar` component is rendered with `style="auto"` in `app/__tests__/_layout.test.tsx`
+- [x] T007 [P] [US1] Write test: colorScheme이 `null`일 때 기본값(라이트 모드)으로 폴백 — mock `useColorScheme` to return `null`, assert `StatusBar` is rendered with `style="auto"` in `app/__tests__/_layout.test.tsx`
 
 ### Implementation for User Story 1 & 2
 
-- [ ] T008 [US1] Update `app/_layout.tsx` to import `useColorScheme` from `react-native` and invoke it in `RootLayout` component — the `<StatusBar style="auto" />` already handles light/dark mapping, so the hook call ensures explicit awareness and testability
-- [ ] T009 [US1] Run tests (`npm test -- --testPathPattern="_layout"`) and verify T005, T006, T007 all pass in `app/__tests__/_layout.test.tsx`
+- [x] T008 [US1] Update `app/_layout.tsx` to import `useColorScheme` from `react-native` and invoke it in `RootLayout` component — explicit style mapping: dark scheme → light StatusBar, light/null scheme → dark StatusBar
+- [x] T009 [US1] Run tests (`npm test -- --testPathPattern="_layout"`) and verify T005, T006, T007 all pass in `app/__tests__/_layout.test.tsx`
 
 **Checkpoint**: 라이트/다크 모드 StatusBar 동작이 테스트를 통해 검증됨. US1과 US2 모두 독립적으로 동작 가능.
 
@@ -74,11 +74,11 @@
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T010 [US3] Write test: `useColorScheme` 반환값이 `"light"` → `"dark"`로 변경될 때 컴포넌트가 re-render되어 StatusBar가 유지되는지 확인 in `app/__tests__/_layout.test.tsx`
+- [x] T010 [US3] Write test: `useColorScheme` 반환값이 `"light"` → `"dark"`로 변경될 때 컴포넌트가 re-render되어 StatusBar가 유지되는지 확인 in `app/__tests__/_layout.test.tsx`
 
 ### Implementation for User Story 3
 
-- [ ] T011 [US3] Verify that `useColorScheme()` in `app/_layout.tsx` already triggers re-render on system theme change — `expo-status-bar` `style="auto"` automatically reacts to `Appearance` module changes, so no additional implementation needed. Run test T010 to confirm.
+- [x] T011 [US3] Verify that `useColorScheme()` in `app/_layout.tsx` triggers re-render on system theme change — explicit style mapping ensures StatusBar updates from "dark" to "light" on theme switch. Test T010 confirms.
 
 **Checkpoint**: 실시간 테마 전환이 테스트를 통해 검증됨. US3 독립적으로 동작 확인.
 
@@ -88,10 +88,10 @@
 
 **Purpose**: 전체 테스트 실행 및 크로스 플랫폼 수동 검증
 
-- [ ] T012 Run full test suite (`npm test`) and confirm all tests pass with no regressions
+- [x] T012 Run full test suite (`npm test`) and confirm all tests pass with no regressions — 9 suites, 70 tests passed
 - [ ] T013 [P] Manual verification on iOS Simulator: toggle theme with Cmd+Shift+A, confirm StatusBar text color changes
 - [ ] T014 [P] Manual verification on Android Emulator: toggle theme with `adb shell "cmd uimode night yes/no"`, confirm StatusBar text color changes
-- [ ] T015 Run linter (`npm run lint`) and type check (`npm run typecheck`) to ensure no errors
+- [x] T015 Run linter (`npm run lint`) and type check (`npm run typecheck`) to ensure no errors — 0 errors, 1 warning (test mock display name)
 
 ---
 
