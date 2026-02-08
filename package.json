@@ -76,7 +76,5 @@
     "typescript": "^5.3.0"
   },
   "private": true,
-  "featureFlags": {
-    "favorites": false
-  }
+  "featureFlags": {}
 }

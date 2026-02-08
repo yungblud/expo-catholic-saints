@@ -1,4 +1,3 @@
-import { FEATURE_FLAGS } from '@/lib/constants/featureFlags';
 import { Ionicons, MaterialIcons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 
@@ -36,7 +35,6 @@ export default function TabLayout() {
       <Tabs.Screen
         name="favorites"
         options={{
-          href: FEATURE_FLAGS.favorites ? '/favorites' : null,
           title: '즐겨찾기',
           tabBarIcon: ({ color, size }) => <Ionicons name="heart" size={size} color={color} />,
         }}
