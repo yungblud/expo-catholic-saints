@@ -23,7 +23,9 @@ let isInitialized = false;
  * Initialize the saints store with data from JSON
  */
 export async function initializeSaintsStore(): Promise<void> {
-  if (isInitialized) {
+  const isAlreadyMigrated = store.getRow('saint.migrations', 'v1.0.0') !== undefined;
+  if (isAlreadyMigrated) {
+    await persister.load();
     return;
   }
 
@@ -64,6 +66,11 @@ export async function initializeSaintsStore(): Promise<void> {
       feastDayIndex[key] = [];
     }
     feastDayIndex[key].push(saint.id);
+  });
+
+  store.setRow('saint.migrations', 'v1.0.0', {
+    version: '1.0.0',
+    appliedAt: Date.now(),
   });
 
   await persister.save();
