@@ -125,3 +125,18 @@ function rowToSaint(row: Record<string, unknown>): Saint {
     initials: row.initials as string,
   };
 }
+
+export function toggleFavorite(saintId: string): void {
+  const store = getStore();
+  const isFavorite = store.getCell('favorites', saintId, 'isFavorite');
+  if (isFavorite) {
+    store.setCell('favorites', saintId, 'isFavorite', false);
+  } else {
+    store.setCell('favorites', saintId, 'isFavorite', true);
+  }
+}
+
+export function isFavorite(saintId: string): boolean {
+  const store = getStore();
+  return store.getCell('favorites', saintId, 'isFavorite') as boolean;
+}
