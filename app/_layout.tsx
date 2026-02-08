@@ -1,12 +1,16 @@
 import '@/global.css';
-import { useEffect } from 'react';
-import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
-import * as SplashScreen from 'expo-splash-screen';
 import { initializeSaintsStore } from '@/lib/store/saints';
+import { Stack } from 'expo-router';
+import * as SplashScreen from 'expo-splash-screen';
+import { StatusBar } from 'expo-status-bar';
+import { useEffect } from 'react';
 
 // Prevent splash screen from auto-hiding
 SplashScreen.preventAutoHideAsync();
+SplashScreen.setOptions({
+  duration: 300,
+  fade: true,
+});
 
 export default function RootLayout() {
   useEffect(() => {
