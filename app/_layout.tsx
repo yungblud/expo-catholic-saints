@@ -19,7 +19,7 @@ export default function RootLayout() {
     async function initialize() {
       try {
         // Initialize saints data store
-        initializeSaintsStore();
+        await initializeSaintsStore();
       } catch (error) {
         console.error('Failed to initialize app:', error);
       } finally {

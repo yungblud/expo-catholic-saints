@@ -2,9 +2,16 @@ import saintsData from '@/data/saints.json';
 import { Saint, SaintSchema, SaintsData } from '@/lib/types/saints';
 import { formatMonthDay } from '@/lib/utils/dateUtils';
 import { createStore, Store } from 'tinybase';
+import { createExpoSqlitePersister } from 'tinybase/persisters/persister-expo-sqlite';
+
+import * as SQLite from 'expo-sqlite';
+
+const sqliteDB = SQLite.openDatabaseSync('saints.db');
 
 // Create TinyBase store
 const store: Store = createStore();
+
+const persister = createExpoSqlitePersister(store, sqliteDB);
 
 // Feast day index for O(1) lookup
 let feastDayIndex: Record<string, string[]> = {};
@@ -15,7 +22,7 @@ let isInitialized = false;
 /**
  * Initialize the saints store with data from JSON
  */
-export function initializeSaintsStore(): void {
+export async function initializeSaintsStore(): Promise<void> {
   if (isInitialized) {
     return;
   }
@@ -58,6 +65,8 @@ export function initializeSaintsStore(): void {
     }
     feastDayIndex[key].push(saint.id);
   });
+
+  await persister.save();
 
   isInitialized = true;
 }
