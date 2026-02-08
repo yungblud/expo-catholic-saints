@@ -22,6 +22,7 @@ export default function SaintDetailScreen() {
     if (id) {
       const foundSaint = getSaint(id);
       setSaint(foundSaint ?? null);
+      setIsFavorite(isFavoriteStore(id));
       setIsLoading(false);
     }
   }, [id]);
