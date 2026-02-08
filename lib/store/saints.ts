@@ -142,7 +142,7 @@ function rowToSaint(row: Record<string, unknown>): Saint {
   };
 }
 
-export function toggleFavorite(saintId: string): void {
+export async function toggleFavorite(saintId: string): Promise<void> {
   const store = getStore();
   const isFavorite = store.getCell('favorites', saintId, 'isFavorite');
   if (isFavorite) {
@@ -150,6 +150,7 @@ export function toggleFavorite(saintId: string): void {
   } else {
     store.setCell('favorites', saintId, 'isFavorite', true);
   }
+  await persister.save();
 }
 
 export function isFavorite(saintId: string): boolean {
