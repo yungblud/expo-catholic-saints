@@ -1,18 +1,41 @@
+import { SaintCard } from '@/components/saints/SaintCard';
 import { EmptyState } from '@/components/ui/EmptyState';
-import { FEATURE_FLAGS } from '@/lib/constants/featureFlags';
-import { Redirect } from 'expo-router';
-import { StyleSheet, View } from 'react-native';
+import { getAllSaints } from '@/lib/store/saints';
+import { Saint } from '@/lib/types/saints';
+import { router } from 'expo-router';
+import { useMemo } from 'react';
+import { FlatList, ListRenderItem, StyleSheet, View } from 'react-native';
+
+const renderItem: ListRenderItem<Saint> = ({ item }) => {
+  return (
+    <SaintCard
+      saint={item}
+      onPress={() => router.push(`/saint/${item.id}`)}
+      testID={`saint-card-${item.id}`}
+    />
+  );
+};
+
+const keyExtractor = (item: Saint) => item.id;
+
+const renderEmptyComponent = () => {
+  return <EmptyState title="성인 모아보기" message="성인을 모아보세요." icon="calendar-outline" />;
+};
 
 export default function HomeScreen() {
-  if (!FEATURE_FLAGS['today-saints']) {
-    return <Redirect href="/search" />;
-  }
+  const allSaints = useMemo(() => getAllSaints(), []);
   return (
     <View style={styles.container}>
-      <EmptyState
-        title="오늘의 성인"
-        message="축일 기능은 User Story 2에서 구현됩니다."
-        icon="calendar-outline"
+      <FlatList
+        data={allSaints}
+        renderItem={renderItem}
+        keyExtractor={keyExtractor}
+        ListEmptyComponent={renderEmptyComponent}
+        contentContainerStyle={allSaints.length === 0 ? styles.emptyContainer : undefined}
+        keyboardShouldPersistTaps="handled"
+        initialNumToRender={10}
+        maxToRenderPerBatch={10}
+        windowSize={5}
       />
     </View>
   );
@@ -22,5 +45,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#ffffff',
+  },
+  emptyContainer: {
+    flex: 1,
   },
 });

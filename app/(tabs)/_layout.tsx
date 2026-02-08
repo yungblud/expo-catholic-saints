@@ -1,5 +1,5 @@
 import { FEATURE_FLAGS } from '@/lib/constants/featureFlags';
-import { Ionicons } from '@expo/vector-icons';
+import { Ionicons, MaterialIcons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 
 export default function TabLayout() {
@@ -19,9 +19,10 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: '오늘의 성인',
-          href: FEATURE_FLAGS['today-saints'] ? '/' : null,
-          tabBarIcon: ({ color, size }) => <Ionicons name="calendar" size={size} color={color} />,
+          title: '모아보기',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialIcons name="church" size={size} color={color} />
+          ),
         }}
       />
       <Tabs.Screen

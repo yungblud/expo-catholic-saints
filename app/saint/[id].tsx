@@ -1,11 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import { View, StyleSheet } from 'react-native';
-import { useLocalSearchParams, Stack } from 'expo-router';
 import { SaintDetail } from '@/components/saints/SaintDetail';
-import { LoadingState } from '@/components/ui/LoadingState';
 import { EmptyState } from '@/components/ui/EmptyState';
-import { getSaint } from '@/lib/store/saints';
+import { LoadingState } from '@/components/ui/LoadingState';
+import {
+  getSaint,
+  getStore,
+  isFavorite as isFavoriteStore,
+  toggleFavorite,
+} from '@/lib/store/saints';
 import { Saint } from '@/lib/types/saints';
+import { Stack, useLocalSearchParams } from 'expo-router';
+import React, { useEffect, useState } from 'react';
+import { StyleSheet, View } from 'react-native';
 
 export default function SaintDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -22,9 +27,22 @@ export default function SaintDetailScreen() {
   }, [id]);
 
   const handleFavoriteToggle = () => {
-    setIsFavorite((prev) => !prev);
-    // TODO: Persist favorite state in Phase 6
+    if (!saint) return;
+    toggleFavorite(saint.id);
   };
+
+  useEffect(() => {
+    if (!saint) return;
+    const store = getStore();
+
+    const listenerId = store.addCellListener('favorites', saint.id, 'isFavorite', () => {
+      setIsFavorite(isFavoriteStore(saint.id));
+    });
+
+    return () => {
+      store.delListener(listenerId);
+    };
+  }, [saint]);
 
   if (isLoading) {
     return <LoadingState message="성인 정보를 불러오는 중..." />;

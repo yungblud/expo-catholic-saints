@@ -77,7 +77,6 @@
   },
   "private": true,
   "featureFlags": {
-    "today-saints": false,
     "favorites": false
   }
 }

@@ -1,7 +1,7 @@
-import { createStore, Store } from 'tinybase';
 import saintsData from '@/data/saints.json';
-import { Saint, SaintsData, SaintSchema } from '@/lib/types/saints';
+import { Saint, SaintSchema, SaintsData } from '@/lib/types/saints';
 import { formatMonthDay } from '@/lib/utils/dateUtils';
+import { createStore, Store } from 'tinybase';
 
 // Create TinyBase store
 const store: Store = createStore();
@@ -124,4 +124,19 @@ function rowToSaint(row: Record<string, unknown>): Saint {
     canonizationYear: (row.canonizationYear as number) || undefined,
     initials: row.initials as string,
   };
+}
+
+export function toggleFavorite(saintId: string): void {
+  const store = getStore();
+  const isFavorite = store.getCell('favorites', saintId, 'isFavorite');
+  if (isFavorite) {
+    store.setCell('favorites', saintId, 'isFavorite', false);
+  } else {
+    store.setCell('favorites', saintId, 'isFavorite', true);
+  }
+}
+
+export function isFavorite(saintId: string): boolean {
+  const store = getStore();
+  return store.getCell('favorites', saintId, 'isFavorite') as boolean;
 }
