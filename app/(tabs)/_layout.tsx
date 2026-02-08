@@ -19,8 +19,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: '오늘의 성인',
-          href: FEATURE_FLAGS['today-saints'] ? '/' : null,
+          title: '모아보기',
           tabBarIcon: ({ color, size }) => <Ionicons name="calendar" size={size} color={color} />,
         }}
       />
