@@ -1,7 +1,12 @@
-import { View, StyleSheet } from 'react-native';
 import { EmptyState } from '@/components/ui/EmptyState';
+import { FEATURE_FLAGS } from '@/lib/constants/featureFlags';
+import { Redirect } from 'expo-router';
+import { StyleSheet, View } from 'react-native';
 
 export default function FavoritesScreen() {
+  if (!FEATURE_FLAGS.favorites) {
+    return <Redirect href="/+not-found" />;
+  }
   return (
     <View style={styles.container}>
       <EmptyState

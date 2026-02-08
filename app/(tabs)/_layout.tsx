@@ -1,5 +1,6 @@
-import { Tabs } from 'expo-router';
+import { FEATURE_FLAGS } from '@/lib/constants/featureFlags';
 import { Ionicons } from '@expo/vector-icons';
+import { Tabs } from 'expo-router';
 
 export default function TabLayout() {
   return (
@@ -29,9 +30,11 @@ export default function TabLayout() {
           tabBarIcon: ({ color, size }) => <Ionicons name="search" size={size} color={color} />,
         }}
       />
+      {/* ✅ favorites 파일은 유지하되, 탭에는 안 뜨게 */}
       <Tabs.Screen
         name="favorites"
         options={{
+          href: FEATURE_FLAGS.favorites ? '/favorites' : null,
           title: '즐겨찾기',
           tabBarIcon: ({ color, size }) => <Ionicons name="heart" size={size} color={color} />,
         }}
