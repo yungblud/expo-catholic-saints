@@ -140,3 +140,10 @@ export function isFavorite(saintId: string): boolean {
   const store = getStore();
   return store.getCell('favorites', saintId, 'isFavorite') as boolean;
 }
+
+export function getFavorites(): string[] {
+  const store = getStore();
+  return Object.keys(store.getTable('favorites')).filter(
+    (id) => store.getCell('favorites', id, 'isFavorite') as boolean
+  );
+}
