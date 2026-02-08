@@ -70,3 +70,6 @@ logs/
 
 expo-env.d.ts
 # @end expo-cli
+
+ios/
+android/
