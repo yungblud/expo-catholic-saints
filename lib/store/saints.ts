@@ -2,9 +2,16 @@ import saintsData from '@/data/saints.json';
 import { Saint, SaintSchema, SaintsData } from '@/lib/types/saints';
 import { formatMonthDay } from '@/lib/utils/dateUtils';
 import { createStore, Store } from 'tinybase';
+import { createExpoSqlitePersister } from 'tinybase/persisters/persister-expo-sqlite';
+
+import * as SQLite from 'expo-sqlite';
+
+const sqliteDB = SQLite.openDatabaseSync('saints.db');
 
 // Create TinyBase store
 const store: Store = createStore();
+
+const persister = createExpoSqlitePersister(store, sqliteDB);
 
 // Feast day index for O(1) lookup
 let feastDayIndex: Record<string, string[]> = {};
@@ -15,8 +22,10 @@ let isInitialized = false;
 /**
  * Initialize the saints store with data from JSON
  */
-export function initializeSaintsStore(): void {
-  if (isInitialized) {
+export async function initializeSaintsStore(): Promise<void> {
+  const isAlreadyMigrated = store.getRow('saint.migrations', 'v1.0.0') !== undefined;
+  if (isAlreadyMigrated) {
+    await persister.load();
     return;
   }
 
@@ -58,6 +67,13 @@ export function initializeSaintsStore(): void {
     }
     feastDayIndex[key].push(saint.id);
   });
+
+  store.setRow('saint.migrations', 'v1.0.0', {
+    version: '1.0.0',
+    appliedAt: Date.now(),
+  });
+
+  await persister.save();
 
   isInitialized = true;
 }
@@ -126,7 +142,7 @@ function rowToSaint(row: Record<string, unknown>): Saint {
   };
 }
 
-export function toggleFavorite(saintId: string): void {
+export async function toggleFavorite(saintId: string): Promise<void> {
   const store = getStore();
   const isFavorite = store.getCell('favorites', saintId, 'isFavorite');
   if (isFavorite) {
@@ -134,6 +150,7 @@ export function toggleFavorite(saintId: string): void {
   } else {
     store.setCell('favorites', saintId, 'isFavorite', true);
   }
+  await persister.save();
 }
 
 export function isFavorite(saintId: string): boolean {
