@@ -469,20 +469,6 @@
       "initials": "테"
     },
     {
-      "id": "guilielmus-maleval",
-      "nameKo": "말레발의 성 귈리엘모",
-      "nameEn": "Saint Guilielmus of Maleval",
-      "nameLatin": "Guilielmus Malevallensis",
-      "shortName": "귈리엘모",
-      "feastMonth": 2,
-      "feastDay": 10,
-      "patronages": ["은수자"],
-      "patronageCategories": ["occupation"],
-      "biography": "말레발의 성 귈리엘모는 12세기 이탈리아에서 활동한 은수자로, 엄격한 고행과 은둔 생활로 알려져 있습니다. 그의 삶은 말레발 은수 전통의 기원이 되었으며, 회개와 복음적 가난의 모범으로 공경받고 있습니다.",
-      "deathYear": 1157,
-      "initials": "귈"
-    },
-    {
       "id": "desideratus-clermont",
       "nameKo": "클레르몽의 성 데시데라토",
       "nameEn": "Saint Desideratus of Clermont",
@@ -511,35 +497,6 @@
       "initials": "발"
     },
     {
-      "id": "soteris-rome",
-      "nameKo": "로마의 성녀 소테리스",
-      "nameEn": "Saint Soteris of Rome",
-      "nameLatin": "Soteris Romana",
-      "shortName": "소테리스",
-      "feastMonth": 2,
-      "feastDay": 10,
-      "patronages": ["동정녀", "순교자"],
-      "patronageCategories": ["situation", "cause"],
-      "biography": "로마의 성녀 소테리스는 4세기 박해 시대에 신앙을 증언하다 순교한 동정 순교자로 전해집니다.",
-      "deathYear": 304,
-      "initials": "소"
-    },
-    {
-      "id": "scholastica-nursia",
-      "nameKo": "누르시아의 성녀 스콜라스티카",
-      "nameEn": "Saint Scholastica",
-      "nameLatin": "Scholastica",
-      "shortName": "스콜라스티카",
-      "feastMonth": 2,
-      "feastDay": 10,
-      "patronages": ["수녀원장", "수도자"],
-      "patronageCategories": ["occupation"],
-      "biography": "누르시아의 성녀 스콜라스티카는 성 베네딕토의 쌍둥이 여동생으로, 서방 여성 수도 생활의 기초를 마련한 인물입니다.",
-      "birthYear": 480,
-      "deathYear": 547,
-      "initials": "스"
-    },
-    {
       "id": "silvanus-terracina",
       "nameKo": "테라치나의 성 실바노",
       "nameEn": "Saint Silvanus of Terracina",
@@ -549,7 +506,7 @@
       "feastDay": 10,
       "patronages": ["주교"],
       "patronageCategories": ["occupation"],
-      "biography": "테라치나의 성 실바노는 초기 교회의 주교로, 신앙을 증언한 증거자로 전해집니다.",
+      "biography": "테라치나의 성 실바노는 초기 교회 시대 이탈리아 라치오 지역의 테라치나에서 주교로 사목한 인물로, 신앙을 증언한 증거자로 전해집니다. 전승에 따르면 그는 그리스도교 공동체를 이끌며 박해와 어려움 속에서도 신자들을 돌보았으며, 그의 헌신적인 목자로서의 삶은 지역 교회 안에서 오랫동안 기억되고 있습니다.",
       "initials": "실"
     },
     {
@@ -562,23 +519,8 @@
       "feastDay": 10,
       "patronages": ["군인", "순교자"],
       "patronageCategories": ["occupation", "cause"],
-      "biography": "성 아만시오는 2세기경 군인 신분으로 신앙을 증언하다 순교한 성인으로 전해집니다.",
+      "biography": "성 아만시오는 2세기경 로마 제국의 군인으로서 그리스도교 신앙을 받아들인 뒤, 우상 숭배를 거부하고 신앙을 공개적으로 증언하다가 순교한 성인으로 전해집니다. 그는 군인이라는 신분에도 불구하고 그리스도에 대한 충실함을 끝까지 지킨 초기 교회 순교자의 한 사람으로 공경받고 있습니다.",
       "deathYear": 120,
-      "initials": "아"
-    },
-    {
-      "id": "austreberta-pavilly",
-      "nameKo": "파빌리의 성녀 아우스트레베르타",
-      "nameEn": "Saint Austreberta of Pavilly",
-      "nameLatin": "Austreberta",
-      "shortName": "아우스트레베르타",
-      "feastMonth": 2,
-      "feastDay": 10,
-      "patronages": ["동정녀"],
-      "patronageCategories": ["situation"],
-      "biography": "파빌리의 성녀 아우스트레베르타는 7세기 프랑스에서 동정 생활을 봉헌한 성녀로 공경받고 있습니다.",
-      "birthYear": 630,
-      "deathYear": 704,
       "initials": "아"
     },
     {
@@ -591,7 +533,7 @@
       "feastDay": 10,
       "patronages": ["순교자"],
       "patronageCategories": ["cause"],
-      "biography": "1세기경 신앙을 증언하다 순교한 성인으로 전해집니다.",
+      "biography": "성 아포니오는 1세기경 로마 제국 치하에서 그리스도교 신앙을 증언하다 순교한 초기 교회의 성인으로 전해집니다. 그에 대한 구체적인 역사 기록은 남아 있지 않으나, 초대 교회 순교자 전통 속에서 신앙의 증거자로 기억되며 공경받고 있습니다.",
       "deathYear": 100,
       "initials": "아"
     },
@@ -605,7 +547,7 @@
       "feastDay": 10,
       "patronages": ["순교자"],
       "patronageCategories": ["cause"],
-      "biography": "1세기경 순교자로 전해지는 성인입니다.",
+      "biography": "성 안드레아는 1세기경 초대 교회 시대에 신앙을 증언하다 순교한 성인으로 전해집니다. 사도 안드레아와는 구별되는 인물이며, 구체적인 역사 기록은 거의 남아 있지 않으나 초기 교회 순교자 전통 속에서 그리스도에 대한 신앙의 증거자로 공경받고 있습니다.",
       "deathYear": 100,
       "initials": "안"
     },
@@ -619,7 +561,7 @@
       "feastDay": 10,
       "patronages": ["군인", "순교자"],
       "patronageCategories": ["occupation", "cause"],
-      "biography": "군인으로서 신앙을 증언하다 순교한 성인으로 전해집니다.",
+      "biography": "성 이레네오는 2세기경 로마 군인 출신으로 그리스도교 신앙을 받아들인 뒤, 우상 숭배를 거부하고 신앙을 증언하다 순교한 성인으로 전해집니다. 리옹의 성 이레네오와는 구별되는 인물이며, 초기 교회에서 군인 순교자의 한 사람으로 공경받고 있습니다.",
       "deathYear": 120,
       "initials": "이"
     },
@@ -633,24 +575,9 @@
       "feastDay": 10,
       "patronages": ["군인", "순교자"],
       "patronageCategories": ["occupation", "cause"],
-      "biography": "2세기경 군인 신분으로 순교한 성인으로 전해집니다.",
+      "biography": "성 조티코는 2세기경 로마 제국의 군인으로서 그리스도교 신앙을 받아들인 뒤 순교한 성인으로 전해집니다. 그는 군인의 직분 속에서도 신앙을 저버리지 않고 그리스도에 대한 충실함을 지키다가 박해 속에서 순교한 초기 교회의 증거자로 공경받고 있습니다.",
       "deathYear": 120,
       "initials": "조"
-    },
-    {
-      "id": "clare-rimini",
-      "nameKo": "리미니의 복녀 클라라",
-      "nameEn": "Blessed Clare of Rimini",
-      "nameLatin": "Clara Ariminensis",
-      "shortName": "클라라",
-      "feastMonth": 2,
-      "feastDay": 10,
-      "patronages": ["과부"],
-      "patronageCategories": ["situation"],
-      "biography": "리미니의 복녀 클라라는 회심 후 극도의 고행과 자선에 헌신한 과부로 공경받고 있습니다.",
-      "birthYear": 1282,
-      "deathYear": 1346,
-      "initials": "클"
     },
     {
       "id": "trumwin-whitby",
@@ -662,7 +589,7 @@
       "feastDay": 10,
       "patronages": ["주교"],
       "patronageCategories": ["occupation"],
-      "biography": "휘트비의 성 트룸윈은 7세기 잉글랜드의 주교로, 북부 지역 선교에 헌신했습니다.",
+      "biography": "휘트비의 성 트룸윈은 7세기 앵글로색슨 잉글랜드에서 활동한 주교로, 681년경 픽트족 지역(에버콘)의 주교로 임명되었습니다. 685년 넥탄스미어 전투 이후 정치적 상황이 변하면서 교구를 떠나 휘트비 수도원에서 수도 생활을 했으며, 성 비드는 그를 경건하고 선한 목자로 기록하고 있습니다.",
       "deathYear": 700,
       "initials": "트"
     },
@@ -676,24 +603,9 @@
       "feastDay": 10,
       "patronages": ["주교"],
       "patronageCategories": ["occupation"],
-      "biography": "브장송의 성 프로타디오는 7세기경 주교로서 지역 교회를 이끈 성인입니다.",
+      "biography": "브장송의 성 프로타디오는 7세기 초 프랑크 왕국 시대에 브장송(Besançon) 교구의 주교로 사목한 인물입니다. 그는 메로빙거 왕조의 정치적 격변 속에서도 지역 교회의 신앙과 질서를 수호하며 신자 공동체를 이끌었고, 성덕 높은 목자로서 지역 교회 안에서 오래도록 공경받고 있습니다.",
       "deathYear": 624,
       "initials": "프"
-    },
-    {
-      "id": "hugh-fosses",
-      "nameKo": "포스의 복자 후고",
-      "nameEn": "Blessed Hugh of Fosses",
-      "nameLatin": "Hugo Fossensis",
-      "shortName": "후고",
-      "feastMonth": 2,
-      "feastDay": 10,
-      "patronages": ["사제", "수도원장"],
-      "patronageCategories": ["occupation"],
-      "biography": "포스의 복자 후고는 12세기 수도원장으로, 학문과 수도 개혁에 헌신한 인물입니다.",
-      "birthYear": 1093,
-      "deathYear": 1164,
-      "initials": "후"
     },
     {
       "id": "hyacinth-soldier-martyr",
@@ -705,7 +617,7 @@
       "feastDay": 10,
       "patronages": ["군인", "순교자"],
       "patronageCategories": ["occupation", "cause"],
-      "biography": "2세기경 군인 신분으로 신앙을 증언하다 순교한 성인으로 전해집니다.",
+      "biography": "성 히야친토는 2세기경 로마 제국의 군인 출신으로, 그리스도교 신앙을 받아들인 뒤 신앙을 공개적으로 증언하다 순교한 성인으로 전해집니다. 그는 동료 군인 순교자들과 함께 초기 교회의 박해 시대에 신앙의 증거자로서 군인 순교자의 한 사람으로 공경받고 있습니다.",
       "deathYear": 120,
       "initials": "히"
     },
@@ -811,7 +723,6 @@
       "deathYear": 550,
       "initials": "곱"
     },
-
     {
       "id": "gregory-ii-pope",
       "nameKo": "교황 성 그레고리오 2세",
