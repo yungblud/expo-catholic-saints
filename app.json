@@ -22,7 +22,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.catholicsaints.search",
+      "bundleIdentifier": "io.coldsurf.cursedbyjesus",
       "buildNumber": "1",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
@@ -33,7 +33,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.catholicsaints.search",
+      "package": "io.coldsurf.cursedbyjesus",
       "versionCode": 1
     },
     "web": {
