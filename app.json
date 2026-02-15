@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Catholic Saints Search",
-    "slug": "catholic-saints-search",
+    "slug": "expo-catholic-saints",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -44,8 +44,12 @@
     },
     "extra": {
       "eas": {
-        "projectId": "YOUR_PROJECT_ID"
+        "projectId": "da7db2cc-2300-4e1f-85f0-267fe4b729d3"
+      },
+      "router": {
+        "origin": false
       }
-    }
+    },
+    "owner": "killi8n"
   }
 }
