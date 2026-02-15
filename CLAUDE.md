@@ -39,4 +39,12 @@ TypeScript 5.x: Follow standard conventions
 - 002-skills-dev-methodology: Added Markdown (documentation), YAML (frontmatter metadata) + None (문서 기반 방법론)
 
 <!-- MANUAL ADDITIONS START -->
+
+## expo-dev-client Conditional Configuration
+
+- `app.config.ts`가 `app.json`의 plugins를 오버라이드하여 `expo-dev-client`를 조건부 포함
+- EAS 빌드 시 자동 설정되는 `EAS_BUILD_PROFILE` 환경변수로 분기
+- 로컬 빌드 (`expo run:ios/android`): `expo-dev-client` 플러그인 미포함
+- EAS development/development:device 빌드: `expo-dev-client` 플러그인 포함
+
 <!-- MANUAL ADDITIONS END -->
