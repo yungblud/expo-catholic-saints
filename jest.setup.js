@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // Jest setup file
 import '@testing-library/react-native/extend-expect';
 
@@ -18,4 +19,17 @@ jest.mock('expo-router', () => ({
 // Mock @expo/vector-icons
 jest.mock('@expo/vector-icons', () => ({
   Ionicons: 'Ionicons',
+}));
+
+// Mock expo-sqlite
+jest.mock('expo-sqlite', () => ({
+  openDatabaseSync: jest.fn(() => ({})),
+}));
+
+// Mock tinybase expo-sqlite persister
+jest.mock('tinybase/persisters/persister-expo-sqlite', () => ({
+  createExpoSqlitePersister: jest.fn(() => ({
+    load: jest.fn(async () => {}),
+    save: jest.fn(async () => {}),
+  })),
 }));

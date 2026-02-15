@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-require-imports, import/order, import/first */
 import React from 'react';
-import { render } from '@testing-library/react-native';
+import { render, waitFor } from '@testing-library/react-native';
 
 const mockStatusBar = jest.fn();
 jest.mock('expo-status-bar', () => ({
@@ -12,7 +12,8 @@ jest.mock('expo-status-bar', () => ({
 
 jest.mock('expo-splash-screen', () => ({
   preventAutoHideAsync: jest.fn(),
-  hideAsync: jest.fn(),
+  hideAsync: jest.fn().mockResolvedValue(undefined),
+  setOptions: jest.fn(),
 }));
 
 jest.mock('expo-router', () => {
@@ -23,7 +24,11 @@ jest.mock('expo-router', () => {
 });
 
 jest.mock('@/lib/store/saints', () => ({
-  initializeSaintsStore: jest.fn(),
+  initializeSaintsStore: jest.fn().mockResolvedValue(undefined),
+}));
+
+jest.mock('@/components/ui/LoadingState', () => ({
+  LoadingState: () => null,
 }));
 
 jest.mock('@/global.css', () => ({}));
@@ -35,8 +40,10 @@ describe('RootLayout - StatusBar', () => {
     jest.clearAllMocks();
   });
 
-  it('renders StatusBar with style="dark"', () => {
+  it('renders StatusBar with style="dark"', async () => {
     render(<RootLayout />);
-    expect(mockStatusBar).toHaveBeenCalledWith(expect.objectContaining({ style: 'dark' }));
+    await waitFor(() => {
+      expect(mockStatusBar).toHaveBeenCalledWith(expect.objectContaining({ style: 'dark' }));
+    });
   });
 });

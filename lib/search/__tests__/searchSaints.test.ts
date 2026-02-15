@@ -2,8 +2,8 @@ import { searchSaints } from '@/lib/search/searchSaints';
 import { initializeSaintsStore } from '@/lib/store/saints';
 
 // Initialize store before tests
-beforeAll(() => {
-  initializeSaintsStore();
+beforeAll(async () => {
+  await initializeSaintsStore();
 });
 
 describe('searchSaints', () => {
