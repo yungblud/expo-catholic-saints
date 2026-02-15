@@ -2,16 +2,25 @@ import saintsData from '@/data/saints.json';
 import { Saint, SaintSchema, SaintsData } from '@/lib/types/saints';
 import { formatMonthDay } from '@/lib/utils/dateUtils';
 import { createStore, Store } from 'tinybase';
-import { createExpoSqlitePersister } from 'tinybase/persisters/persister-expo-sqlite';
-
-import * as SQLite from 'expo-sqlite';
-
-const sqliteDB = SQLite.openDatabaseSync('saints.db');
 
 // Create TinyBase store
 const store: Store = createStore();
 
-const persister = createExpoSqlitePersister(store, sqliteDB);
+// Lazy-initialized persister (expo-sqlite is not available during web static rendering)
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let persister: any = null;
+
+function getPersister() {
+  if (!persister) {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const SQLite = require('expo-sqlite');
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const { createExpoSqlitePersister } = require('tinybase/persisters/persister-expo-sqlite');
+    const sqliteDB = SQLite.openDatabaseSync('saints.db');
+    persister = createExpoSqlitePersister(store, sqliteDB);
+  }
+  return persister;
+}
 
 // Feast day index for O(1) lookup
 let feastDayIndex: Record<string, string[]> = {};
@@ -23,7 +32,8 @@ let isInitialized = false;
  * Initialize the saints store with data from JSON
  */
 export async function initializeSaintsStore(): Promise<void> {
-  await persister.load();
+  const p = getPersister();
+  await p.load();
   const migrations = store.getTable('saint.migrations');
   const isAlreadyMigrated = migrations[saintsData.version] !== undefined;
   if (isAlreadyMigrated) {
@@ -76,7 +86,7 @@ export async function initializeSaintsStore(): Promise<void> {
     },
   });
 
-  await persister.save();
+  await p.save();
 
   isInitialized = true;
 }
@@ -153,7 +163,7 @@ export async function toggleFavorite(saintId: string): Promise<void> {
   } else {
     store.setCell('favorites', saintId, 'isFavorite', true);
   }
-  await persister.save();
+  await getPersister().save();
 }
 
 export function isFavorite(saintId: string): boolean {
