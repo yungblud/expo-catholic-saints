@@ -52,8 +52,8 @@
 
 ### Implementation for User Story 2
 
-- [ ] T005 [US2] Apply NativeWind responsive styles to app/privacy-policy.tsx: mobile-first layout with max-width container, responsive padding (px-4 mobile, px-8 desktop), readable font sizes, proper heading hierarchy (h1/h2), and adequate spacing between sections for scannability
-- [ ] T006 [US2] Verify responsive layout by running `npm run web` and testing at 320px, 428px, and 1024px+ viewport widths in browser DevTools
+- [x] T005 [US2] Apply NativeWind responsive styles to app/privacy-policy.tsx: mobile-first layout with max-width container, responsive padding (px-4 mobile, px-8 desktop), readable font sizes, proper heading hierarchy (h1/h2), and adequate spacing between sections for scannability
+- [x] T006 [US2] Verify responsive layout by running `npm run web` and testing at 320px, 428px, and 1024px+ viewport widths in browser DevTools
 
 **Checkpoint**: Page displays correctly on both mobile and desktop. US2 acceptance scenarios are met.
 
