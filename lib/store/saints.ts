@@ -23,9 +23,10 @@ let isInitialized = false;
  * Initialize the saints store with data from JSON
  */
 export async function initializeSaintsStore(): Promise<void> {
-  const isAlreadyMigrated = store.getRow('saint.migrations', 'v1.0.0') !== undefined;
+  await persister.load();
+  const migrations = store.getTable('saint.migrations');
+  const isAlreadyMigrated = migrations[saintsData.version] !== undefined;
   if (isAlreadyMigrated) {
-    await persister.load();
     return;
   }
 
@@ -68,9 +69,11 @@ export async function initializeSaintsStore(): Promise<void> {
     feastDayIndex[key].push(saint.id);
   });
 
-  store.setRow('saint.migrations', 'v1.0.0', {
-    version: '1.0.0',
-    appliedAt: Date.now(),
+  store.setTable('saint.migrations', {
+    [saintsData.version]: {
+      version: saintsData.version,
+      appliedAt: Date.now(),
+    },
   });
 
   await persister.save();
