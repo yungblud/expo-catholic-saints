@@ -1,4 +1,5 @@
 import { ConfigContext, ExpoConfig } from 'expo/config';
+import pkg from './package.json';
 
 const isEasDevBuild =
   process.env.EAS_BUILD_PROFILE === 'development' ||
@@ -27,5 +28,6 @@ export default ({ config }: ConfigContext): ExpoConfig => {
   return {
     ...config,
     plugins,
+    version: pkg.version,
   } as ExpoConfig;
 };
