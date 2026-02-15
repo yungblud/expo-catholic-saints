@@ -63,8 +63,8 @@
 
 **Purpose**: Final verification and web build validation
 
-- [ ] T007 Run full test suite with `npm test` to ensure no regressions in existing tests
-- [ ] T008 Run web static export with `npx expo export --platform web` and verify `/privacy-policy` page is included in dist/ output
+- [x] T007 Run full test suite with `npm test` to ensure no regressions in existing tests (72/72 passed)
+- [ ] T008 Run web static export with `npx expo export --platform web` and verify `/privacy-policy` page is included in dist/ output — **BLOCKED**: pre-existing issue where `expo-sqlite` `openDatabaseSync()` in `lib/store/saints.ts:9` fails during web static rendering (not web-compatible). This is unrelated to the privacy-policy feature and requires a separate fix (lazy initialization or platform check for expo-sqlite).
 
 ---
 
