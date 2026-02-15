@@ -17,7 +17,7 @@
 
 **Purpose**: Register the privacy-policy route in the existing Expo Router structure
 
-- [ ] T001 Register privacy-policy route as Stack.Screen in app/\_layout.tsx with `headerShown: false` option so the page renders without native navigation header
+- [x] T001 Register privacy-policy route as Stack.Screen in app/\_layout.tsx with `headerShown: false` option so the page renders without native navigation header
 
 **Checkpoint**: Route is registered and Expo Router recognizes `/privacy-policy` path
 

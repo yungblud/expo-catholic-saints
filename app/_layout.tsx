@@ -48,6 +48,7 @@ export default function RootLayout() {
             headerBackTitle: '뒤로',
           }}
         />
+        <Stack.Screen name="privacy-policy" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
     </>
