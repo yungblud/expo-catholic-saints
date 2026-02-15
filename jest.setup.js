@@ -33,3 +33,11 @@ jest.mock('tinybase/persisters/persister-expo-sqlite', () => ({
     save: jest.fn(async () => {}),
   })),
 }));
+
+// Mock tinybase browser persister
+jest.mock('tinybase/persisters/persister-browser', () => ({
+  createLocalPersister: jest.fn(() => ({
+    load: jest.fn(async () => {}),
+    save: jest.fn(async () => {}),
+  })),
+}));
