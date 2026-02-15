@@ -1,0 +1,31 @@
+import { ConfigContext, ExpoConfig } from 'expo/config';
+
+const isEasDevBuild =
+  process.env.EAS_BUILD_PROFILE === 'development' ||
+  process.env.EAS_BUILD_PROFILE === 'development:device';
+
+export default ({ config }: ConfigContext): ExpoConfig => {
+  const plugins: ExpoConfig['plugins'] = [
+    'expo-router',
+    'expo-font',
+    'expo-updates',
+    'expo-sqlite',
+    [
+      'expo-build-properties',
+      {
+        android: {
+          kotlinVersion: '1.9.25',
+        },
+      },
+    ],
+  ];
+
+  if (isEasDevBuild) {
+    plugins.push('expo-dev-client');
+  }
+
+  return {
+    ...config,
+    plugins,
+  } as ExpoConfig;
+};
