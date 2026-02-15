@@ -2,15 +2,17 @@ import saintsData from '@/data/saints.json';
 import { Saint, SaintSchema, SaintsData } from '@/lib/types/saints';
 import { formatMonthDay } from '@/lib/utils/dateUtils';
 import { createStore, Store } from 'tinybase';
+import { Platform } from 'react-native';
 
 // Create TinyBase store
 const store: Store = createStore();
 
-// Lazy-initialized persister (expo-sqlite is not available during web static rendering)
+// Lazy-initialized persister (expo-sqlite is not available on web)
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let persister: any = null;
 
 function getPersister() {
+  if (Platform.OS === 'web') return null;
   if (!persister) {
     // eslint-disable-next-line @typescript-eslint/no-require-imports
     const SQLite = require('expo-sqlite');
@@ -33,7 +35,7 @@ let isInitialized = false;
  */
 export async function initializeSaintsStore(): Promise<void> {
   const p = getPersister();
-  await p.load();
+  if (p) await p.load();
   const migrations = store.getTable('saint.migrations');
   const isAlreadyMigrated = migrations[saintsData.version] !== undefined;
   if (isAlreadyMigrated) {
@@ -86,7 +88,7 @@ export async function initializeSaintsStore(): Promise<void> {
     },
   });
 
-  await p.save();
+  if (p) await p.save();
 
   isInitialized = true;
 }
@@ -163,7 +165,8 @@ export async function toggleFavorite(saintId: string): Promise<void> {
   } else {
     store.setCell('favorites', saintId, 'isFavorite', true);
   }
-  await getPersister().save();
+  const p = getPersister();
+  if (p) await p.save();
 }
 
 export function isFavorite(saintId: string): boolean {
