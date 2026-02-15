@@ -33,12 +33,12 @@
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T002 [US1] Write rendering test that verifies page renders with app name "Cursed By Jesus", all 8 PIPA section headings, contact email, and effective date in app/**tests**/privacy-policy.test.tsx
+- [x] T002 [US1] Write rendering test that verifies page renders with app name "Cursed By Jesus", all 8 PIPA section headings, contact email, and effective date in app/**tests**/privacy-policy.test.tsx
 
 ### Implementation for User Story 1
 
-- [ ] T003 [US1] Create privacy policy page component in app/privacy-policy.tsx with complete PIPA content: (1) 개인정보의 처리 목적, (2) 처리하는 개인정보의 항목, (3) 개인정보의 처리 및 보유 기간, (4) 제3자 제공, (5) 파기 절차 및 방법, (6) 정보주체의 권리·의무, (7) 개인정보 보호책임자 연락처, (8) 시행일자. All sections state "수집하지 않음" or "해당 없음" as appropriate. Include app name "Cursed By Jesus" and developer contact email.
-- [ ] T004 [US1] Verify T002 tests pass after implementation by running `npx jest app/__tests__/privacy-policy.test.tsx`
+- [x] T003 [US1] Create privacy policy page component in app/privacy-policy.tsx with complete PIPA content: (1) 개인정보의 처리 목적, (2) 처리하는 개인정보의 항목, (3) 개인정보의 처리 및 보유 기간, (4) 제3자 제공, (5) 파기 절차 및 방법, (6) 정보주체의 권리·의무, (7) 개인정보 보호책임자 연락처, (8) 시행일자. All sections state "수집하지 않음" or "해당 없음" as appropriate. Include app name "Cursed By Jesus" and developer contact email.
+- [x] T004 [US1] Verify T002 tests pass after implementation by running `npx jest app/__tests__/privacy-policy.test.tsx`
 
 **Checkpoint**: Privacy policy page renders with all required PIPA content. US1 acceptance scenarios are met.
 
