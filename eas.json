@@ -8,7 +8,8 @@
     "base": {
       "env": {
         "EXPO_PUBLIC_APP_NAME": "Catholic Saints"
-      }
+      },
+      "channel": "base"
     },
     "development": {
       "extends": "base",
@@ -30,7 +31,8 @@
       "extends": "development",
       "ios": {
         "simulator": false
-      }
+      },
+      "channel": "development-device"
     },
     "preview": {
       "extends": "base",
