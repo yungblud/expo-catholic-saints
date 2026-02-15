@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Catholic Saints Search",
+    "name": "Cursed By Jesus",
     "slug": "expo-catholic-saints",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "saints",
+    "scheme": "cursedbyjesus",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "runtimeVersion": {
