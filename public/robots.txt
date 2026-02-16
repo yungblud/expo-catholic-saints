@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /_sitemap
+
+Host: https://cursed-by-jesus.coldsurf.io
+Sitemap: https://cursed-by-jesus.coldsurf.io/sitemap.xml

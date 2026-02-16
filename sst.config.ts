@@ -40,7 +40,8 @@ export default $config({
     const site = new sst.aws.StaticSite('WebApp', {
       path: '.',
       build: {
-        command: 'npx expo export --platform web && node scripts/fix-static-html.mjs',
+        command:
+          'npx expo export --platform web && node scripts/fix-static-html.mjs && node scripts/generate-sitemap.mjs',
         output: 'dist',
       },
       indexPage: 'index.html',
