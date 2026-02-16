@@ -22,5 +22,5 @@ module.exports = {
       version: 'detect',
     },
   },
-  ignorePatterns: ['node_modules/', 'dist/', 'build/', '.expo/', 'coverage/'],
+  ignorePatterns: ['node_modules/', 'dist/', 'build/', '.expo/', 'coverage/', 'sst.config.ts'],
 };

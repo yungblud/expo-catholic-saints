@@ -75,3 +75,6 @@ ios/
 android/
 
 AuthKey_*.p8
+
+# SST
+.sst/
