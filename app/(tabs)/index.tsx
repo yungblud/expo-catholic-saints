@@ -3,8 +3,9 @@ import { SaintCard } from '@/components/saints/SaintCard';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { getAllSaints } from '@/lib/store/saints';
 import { Saint } from '@/lib/types/saints';
+import { useScrollToTop } from '@react-navigation/native';
 import { router } from 'expo-router';
-import { useMemo } from 'react';
+import { useMemo, useRef } from 'react';
 import { FlatList, ListRenderItem, StyleSheet, View } from 'react-native';
 
 const renderItem: ListRenderItem<Saint> = ({ item }) => {
@@ -25,11 +26,15 @@ const renderEmptyComponent = () => {
 
 export default function HomeScreen() {
   const allSaints = useMemo(() => getAllSaints(), []);
+  const listRef = useRef<FlatList<Saint>>(null);
+  useScrollToTop(listRef);
+
   return (
     <>
       <CommonMetaHead title="모아보기" description="카톨릭 성인을 모아보세요." />
       <View style={styles.container}>
         <FlatList
+          ref={listRef}
           data={allSaints}
           renderItem={renderItem}
           keyExtractor={keyExtractor}

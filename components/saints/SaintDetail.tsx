@@ -1,10 +1,11 @@
-import React from 'react';
-import { View, Text, ScrollView, TouchableOpacity, StyleSheet } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
 import { Saint } from '@/lib/types/saints';
-import { SaintAvatar } from './SaintAvatar';
 import { formatFeastDayKo } from '@/lib/utils/dateUtils';
 import { formatYearRange } from '@/lib/utils/stringUtils';
+import { Ionicons } from '@expo/vector-icons';
+import { useScrollToTop } from '@react-navigation/native';
+import React, { useRef } from 'react';
+import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { SaintAvatar } from './SaintAvatar';
 
 interface SaintDetailProps {
   saint: Saint;
@@ -13,8 +14,10 @@ interface SaintDetailProps {
 }
 
 export function SaintDetail({ saint, isFavorite, onFavoriteToggle }: SaintDetailProps) {
+  const scrollViewRef = useRef<ScrollView>(null);
+  useScrollToTop(scrollViewRef);
   return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+    <ScrollView style={styles.container} contentContainerStyle={styles.content} ref={scrollViewRef}>
       {/* Header */}
       <View style={styles.header}>
         <SaintAvatar initials={saint.initials} size="large" />
