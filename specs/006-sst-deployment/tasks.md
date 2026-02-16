@@ -19,10 +19,10 @@
 
 **Purpose**: SST 설치 및 프로젝트 기본 설정
 
-- [ ] T001 Install SST v3 as devDependency via `pnpm add -D sst`
-- [ ] T002 [P] Add `.sst/` to `.gitignore`
-- [ ] T003 [P] Add `sst.config.ts` to exclude list in `tsconfig.json`
-- [ ] T004 [P] Add `sst.config.ts` to ignorePatterns in `.eslintrc.js`
+- [x] T001 Install SST v3 as devDependency via `pnpm add -D sst`
+- [x] T002 [P] Add `.sst/` to `.gitignore`
+- [x] T003 [P] Add `sst.config.ts` to exclude list in `tsconfig.json`
+- [x] T004 [P] Add `sst.config.ts` to ignorePatterns in `.eslintrc.js`
 
 ---
 
@@ -44,23 +44,23 @@
 
 ### Implementation for User Story 1
 
-- [ ] T005 [US1] Create SST config with StaticSite component in `sst.config.ts`
+- [x] T005 [US1] Create SST config with StaticSite component in `sst.config.ts`
   - `sst.aws.StaticSite` 컴포넌트 사용
   - `path: "."`, `build.command: "npx expo export --platform web"`, `build.output: "dist"`
   - `indexPage: "index.html"`, `errorPage: "/index.html"` (SPA fallback)
   - `region: "ap-northeast-2"` (서울)
-- [ ] T006 [US1] Configure domain strategy in `sst.config.ts`
+- [x] T006 [US1] Configure domain strategy in `sst.config.ts`
   - staging: `staging.${DOMAIN}` (DOMAIN 환경변수)
   - production: `${DOMAIN}` + `www.${DOMAIN}` 리다이렉트
   - 도메인 미설정 시 CloudFront URL fallback
-- [ ] T007 [US1] Configure cache policy in `sst.config.ts`
+- [x] T007 [US1] Configure cache policy in `sst.config.ts`
   - `**` → `max-age=31536000,public,immutable`
   - `**/*.html` → `max-age=0,no-cache,no-store,must-revalidate`
   - `invalidation: { paths: "all", wait: false }`
-- [ ] T008 [US1] Configure stage-specific removal and protection in `sst.config.ts`
+- [x] T008 [US1] Configure stage-specific removal and protection in `sst.config.ts`
   - production: `removal: "retain"`, `protect: true`
   - staging/dev: `removal: "remove"`, `protect: false`
-- [ ] T009 [US1] Configure dev mode in `sst.config.ts`
+- [x] T009 [US1] Configure dev mode in `sst.config.ts`
   - `dev.command: "npx expo start --web"`
   - `dev.url: "http://localhost:8081"`
 
@@ -76,18 +76,18 @@
 
 ### Implementation for User Story 2
 
-- [ ] T010 [US2] Create GitHub Actions workflow file at `.github/workflows/deploy-web.yml`
+- [x] T010 [US2] Create GitHub Actions workflow file at `.github/workflows/deploy-web.yml`
   - Trigger: `push` (main) + `workflow_dispatch` (staging/production 선택)
   - `permissions: id-token: write, contents: read`
-- [ ] T011 [US2] Configure OIDC authentication in `.github/workflows/deploy-web.yml`
+- [x] T011 [US2] Configure OIDC authentication in `.github/workflows/deploy-web.yml`
   - `aws-actions/configure-aws-credentials@v4`
   - `role-to-assume: ${{ secrets.AWS_ROLE_ARN }}`
   - `aws-region: ap-northeast-2`
-- [ ] T012 [US2] Configure build and deploy steps in `.github/workflows/deploy-web.yml`
+- [x] T012 [US2] Configure build and deploy steps in `.github/workflows/deploy-web.yml`
   - pnpm setup + Node.js 20 + `pnpm install --frozen-lockfile`
   - `npx sst deploy --stage <stage>` (SST가 expo export 자동 실행)
   - `DOMAIN: ${{ vars.DOMAIN }}` 환경변수 전달
-- [ ] T013 [US2] Configure concurrency and environments in `.github/workflows/deploy-web.yml`
+- [x] T013 [US2] Configure concurrency and environments in `.github/workflows/deploy-web.yml`
   - `concurrency.group: deploy-web-<stage>`
   - `cancel-in-progress: false`
   - `environment`: staging (push) / 선택값 (dispatch)
@@ -104,14 +104,14 @@
 
 ### Implementation for User Story 3
 
-- [ ] T014 [P] [US3] Add deploy and SST scripts to `package.json`
+- [x] T014 [P] [US3] Add deploy and SST scripts to `package.json`
   - `deploy:staging`: `npx expo export -p web && npx sst deploy --stage staging`
   - `deploy:production`: `npx expo export -p web && npx sst deploy --stage production`
   - `sst:dev`: `npx sst dev`
   - `sst:remove:staging`: `npx sst remove --stage staging`
   - `sst:remove:production`: `npx sst remove --stage production`
-- [ ] T015 [P] [US3] Create `.env.example` with `DOMAIN=example.com`
-- [ ] T016 [US3] Create deployment guide at `docs/expo-web-deployment.md`
+- [x] T015 [P] [US3] Create `.env.example` with `DOMAIN=example.com`
+- [x] T016 [US3] Create deployment guide at `docs/expo-web-deployment.md`
   - 배포 옵션 비교 (SST, EAS Hosting, Cloudflare Pages, Vercel, Netlify)
   - SST 아키텍처 설명 (S3 + CloudFront + Route 53)
   - 라우팅 전략, 캐시 전략
@@ -127,9 +127,9 @@
 
 **Purpose**: 최종 검증 및 정리
 
-- [ ] T017 Verify Expo web build succeeds with `npx expo export -p web`
-- [ ] T018 Validate GitHub Actions workflow syntax (push 후 Actions 탭 확인 또는 `act` 도구)
-- [ ] T019 Update `CLAUDE.md` with SST deployment context
+- [x] T017 Verify Expo web build succeeds with `npx expo export -p web`
+- [x] T018 Validate GitHub Actions workflow syntax (push 후 Actions 탭 확인 또는 `act` 도구)
+- [x] T019 Update `CLAUDE.md` with SST deployment context
 
 ---
 
