@@ -5,6 +5,7 @@ import { initializeSaintsStore } from '@/lib/store/saints';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
+import * as Updates from 'expo-updates';
 import { useEffect, useState } from 'react';
 
 // Prevent splash screen from auto-hiding
@@ -21,12 +22,23 @@ export default function RootLayout() {
       try {
         // Initialize saints data store
         await initializeSaintsStore();
+
+        // Hide splash screen
+        await SplashScreen.hideAsync();
+
+        // check EAS OTA Update
+        if (!__DEV__) {
+          const update = await Updates.checkForUpdateAsync();
+          if (update.isAvailable) {
+            await Updates.fetchUpdateAsync();
+            // 즉시 재시작 (강제 업데이트)
+            await Updates.reloadAsync();
+          }
+        }
       } catch (error) {
         console.error('Failed to initialize app:', error);
       } finally {
         setIsInitialized(true);
-        // Hide splash screen
-        await SplashScreen.hideAsync();
       }
     }
 

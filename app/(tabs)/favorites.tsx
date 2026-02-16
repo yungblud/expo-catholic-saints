@@ -2,8 +2,9 @@ import { CommonMetaHead } from '@/components/meta/CommonMetaHead';
 import { SaintCard } from '@/components/saints/SaintCard';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { getFavorites, getSaint, getStore } from '@/lib/store/saints';
+import { useScrollToTop } from '@react-navigation/native';
 import { router } from 'expo-router';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { FlatList, ListRenderItem, StyleSheet, View } from 'react-native';
 
 const renderItem: ListRenderItem<string> = ({ item }) => {
@@ -26,6 +27,8 @@ const renderEmptyComponent = () => {
 
 export default function FavoritesScreen() {
   const [favorites, setFavorites] = useState<string[]>(() => getFavorites());
+  const listRef = useRef<FlatList<string>>(null);
+  useScrollToTop(listRef);
 
   useEffect(() => {
     const store = getStore();
@@ -43,6 +46,7 @@ export default function FavoritesScreen() {
       <CommonMetaHead title="즐겨찾기" description="북마크한 카톨릭 성인들을 모아보세요." />
       <View style={styles.container}>
         <FlatList
+          ref={listRef}
           data={favorites}
           renderItem={renderItem}
           keyExtractor={keyExtractor}

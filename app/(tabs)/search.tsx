@@ -4,13 +4,16 @@ import { SearchInput } from '@/components/search/SearchInput';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { useSearch } from '@/lib/hooks/useSearch';
 import { Saint, SearchResult } from '@/lib/types/saints';
+import { useScrollToTop } from '@react-navigation/native';
 import { useRouter } from 'expo-router';
-import React, { useCallback } from 'react';
+import React, { useCallback, useRef } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 
 export default function SearchScreen() {
   const router = useRouter();
   const { results, query, search } = useSearch({ mode: 'name', limit: 50 });
+  const listRef = useRef<FlatList<SearchResult>>(null);
+  useScrollToTop(listRef);
 
   const handleSaintPress = useCallback(
     (saint: Saint) => {
@@ -69,6 +72,7 @@ export default function SearchScreen() {
         />
 
         <FlatList
+          ref={listRef}
           data={results}
           renderItem={renderItem}
           keyExtractor={keyExtractor}
