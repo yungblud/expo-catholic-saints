@@ -1,3 +1,4 @@
+import { CommonMetaHead } from '@/components/meta/CommonMetaHead';
 import { LoadingState } from '@/components/ui/LoadingState';
 import '@/global.css';
 import { initializeSaintsStore } from '@/lib/store/saints';
@@ -32,25 +33,28 @@ export default function RootLayout() {
     initialize();
   }, []);
 
-  if (!isInitialized) {
-    return <LoadingState />;
-  }
-
   return (
     <>
-      <StatusBar style="dark" />
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen
-          name="saint/[id]"
-          options={{
-            title: '성인 상세',
-            headerBackTitle: '뒤로',
-          }}
-        />
-        <Stack.Screen name="privacy-policy" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
-      </Stack>
+      <CommonMetaHead />
+      {isInitialized ? (
+        <>
+          <StatusBar style="dark" />
+          <Stack>
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen
+              name="saint/[id]"
+              options={{
+                title: '성인 상세',
+                headerBackTitle: '뒤로',
+              }}
+            />
+            <Stack.Screen name="privacy-policy" options={{ headerShown: false }} />
+            <Stack.Screen name="+not-found" />
+          </Stack>
+        </>
+      ) : (
+        <LoadingState />
+      )}
     </>
   );
 }
