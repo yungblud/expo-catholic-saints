@@ -15,17 +15,25 @@ export default $config({
     };
   },
   async run() {
-    const domain = process.env.DOMAIN;
+    const domain = (() => {
+      if ($app.stage === 'production') {
+        return process.env.DOMAIN_PROD;
+      }
+      if ($app.stage === 'staging') {
+        return process.env.DOMAIN_STAGING;
+      }
+      return undefined;
+    })();
 
     const domainConfig =
       domain && $app.stage === 'production'
         ? {
             name: domain,
-            redirects: [`www.${domain}`],
+            // redirects: [`www.${domain}`],
           }
         : domain && $app.stage === 'staging'
           ? {
-              name: `staging.${domain}`,
+              name: domain,
             }
           : undefined;
 
