@@ -1,11 +1,12 @@
-import React, { useCallback } from 'react';
-import { View, FlatList, StyleSheet } from 'react-native';
-import { useRouter } from 'expo-router';
-import { SearchInput } from '@/components/search/SearchInput';
+import { CommonMetaHead } from '@/components/meta/CommonMetaHead';
 import { SaintCard } from '@/components/saints/SaintCard';
+import { SearchInput } from '@/components/search/SearchInput';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { useSearch } from '@/lib/hooks/useSearch';
 import { Saint, SearchResult } from '@/lib/types/saints';
+import { useRouter } from 'expo-router';
+import React, { useCallback } from 'react';
+import { FlatList, StyleSheet, View } from 'react-native';
 
 export default function SearchScreen() {
   const router = useRouter();
@@ -53,27 +54,33 @@ export default function SearchScreen() {
   }, [query]);
 
   return (
-    <View style={styles.container}>
-      <SearchInput
-        value={query}
-        onChangeText={search}
-        placeholder="성인 이름 검색..."
-        testID="search-input"
-        autoFocus
+    <>
+      <CommonMetaHead
+        title="검색"
+        description="카톨릭 성인의 이름, 영어, 또는 라틴어 이름으로 검색하세요."
       />
+      <View style={styles.container}>
+        <SearchInput
+          value={query}
+          onChangeText={search}
+          placeholder="성인 이름 검색..."
+          testID="search-input"
+          autoFocus
+        />
 
-      <FlatList
-        data={results}
-        renderItem={renderItem}
-        keyExtractor={keyExtractor}
-        ListEmptyComponent={renderEmptyComponent}
-        contentContainerStyle={results.length === 0 ? styles.emptyContainer : undefined}
-        keyboardShouldPersistTaps="handled"
-        initialNumToRender={10}
-        maxToRenderPerBatch={10}
-        windowSize={5}
-      />
-    </View>
+        <FlatList
+          data={results}
+          renderItem={renderItem}
+          keyExtractor={keyExtractor}
+          ListEmptyComponent={renderEmptyComponent}
+          contentContainerStyle={results.length === 0 ? styles.emptyContainer : undefined}
+          keyboardShouldPersistTaps="handled"
+          initialNumToRender={10}
+          maxToRenderPerBatch={10}
+          windowSize={5}
+        />
+      </View>
+    </>
   );
 }
 

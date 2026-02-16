@@ -1,3 +1,4 @@
+import { CommonMetaHead } from '@/components/meta/CommonMetaHead';
 import { SaintCard } from '@/components/saints/SaintCard';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { getAllSaints } from '@/lib/store/saints';
@@ -25,19 +26,22 @@ const renderEmptyComponent = () => {
 export default function HomeScreen() {
   const allSaints = useMemo(() => getAllSaints(), []);
   return (
-    <View style={styles.container}>
-      <FlatList
-        data={allSaints}
-        renderItem={renderItem}
-        keyExtractor={keyExtractor}
-        ListEmptyComponent={renderEmptyComponent}
-        contentContainerStyle={allSaints.length === 0 ? styles.emptyContainer : undefined}
-        keyboardShouldPersistTaps="handled"
-        initialNumToRender={10}
-        maxToRenderPerBatch={10}
-        windowSize={5}
-      />
-    </View>
+    <>
+      <CommonMetaHead title="모아보기" description="카톨릭 성인을 모아보세요." />
+      <View style={styles.container}>
+        <FlatList
+          data={allSaints}
+          renderItem={renderItem}
+          keyExtractor={keyExtractor}
+          ListEmptyComponent={renderEmptyComponent}
+          contentContainerStyle={allSaints.length === 0 ? styles.emptyContainer : undefined}
+          keyboardShouldPersistTaps="handled"
+          initialNumToRender={10}
+          maxToRenderPerBatch={10}
+          windowSize={5}
+        />
+      </View>
+    </>
   );
 }
 

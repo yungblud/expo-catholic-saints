@@ -1,3 +1,4 @@
+import { SaintDetailMetaHead } from '@/components/meta/SaintDetailMetaHead';
 import { SaintDetail } from '@/components/saints/SaintDetail';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { LoadingState } from '@/components/ui/LoadingState';
@@ -69,10 +70,17 @@ export default function SaintDetailScreen() {
   }
 
   return (
-    <View style={styles.container}>
-      <Stack.Screen options={{ title: saint.shortName }} />
-      <SaintDetail saint={saint} isFavorite={isFavorite} onFavoriteToggle={handleFavoriteToggle} />
-    </View>
+    <>
+      <SaintDetailMetaHead saint={saint} />
+      <View style={styles.container}>
+        <Stack.Screen options={{ title: saint.shortName }} />
+        <SaintDetail
+          saint={saint}
+          isFavorite={isFavorite}
+          onFavoriteToggle={handleFavoriteToggle}
+        />
+      </View>
+    </>
   );
 }
 

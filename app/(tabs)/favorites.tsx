@@ -1,3 +1,4 @@
+import { CommonMetaHead } from '@/components/meta/CommonMetaHead';
 import { SaintCard } from '@/components/saints/SaintCard';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { getFavorites, getSaint, getStore } from '@/lib/store/saints';
@@ -38,18 +39,21 @@ export default function FavoritesScreen() {
   }, []);
 
   return (
-    <View style={styles.container}>
-      <FlatList
-        data={favorites}
-        renderItem={renderItem}
-        keyExtractor={keyExtractor}
-        ListEmptyComponent={renderEmptyComponent}
-        initialNumToRender={10}
-        maxToRenderPerBatch={10}
-        windowSize={5}
-        contentContainerStyle={favorites.length === 0 ? styles.emptyContainer : undefined}
-      />
-    </View>
+    <>
+      <CommonMetaHead title="즐겨찾기" description="북마크한 카톨릭 성인들을 모아보세요." />
+      <View style={styles.container}>
+        <FlatList
+          data={favorites}
+          renderItem={renderItem}
+          keyExtractor={keyExtractor}
+          ListEmptyComponent={renderEmptyComponent}
+          initialNumToRender={10}
+          maxToRenderPerBatch={10}
+          windowSize={5}
+          contentContainerStyle={favorites.length === 0 ? styles.emptyContainer : undefined}
+        />
+      </View>
+    </>
   );
 }
 
