@@ -16,6 +16,11 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "typecheck": "tsc --noEmit",
+    "deploy:staging": "npx expo export -p web && npx sst deploy --stage staging",
+    "deploy:production": "npx expo export -p web && npx sst deploy --stage production",
+    "sst:dev": "npx sst dev",
+    "sst:remove:staging": "npx sst remove --stage staging",
+    "sst:remove:production": "npx sst remove --stage production",
     "prepare": "lefthook install || true"
   },
   "keywords": [
@@ -75,6 +80,7 @@
     "lefthook": "^2.0.16",
     "nativewind": "^4.0.0",
     "prettier": "^3.2.0",
+    "sst": "^3.18.1",
     "tailwindcss": "^3.4.0",
     "typescript": "^5.3.0"
   },
