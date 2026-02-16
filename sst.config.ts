@@ -3,7 +3,7 @@
 export default $config({
   app(input) {
     return {
-      name: 'catholic-saints-search',
+      name: 'cursed-by-jesus',
       home: 'aws',
       providers: {
         aws: {
@@ -32,11 +32,10 @@ export default $config({
     const site = new sst.aws.StaticSite('WebApp', {
       path: '.',
       build: {
-        command: 'npx expo export --platform web',
+        command: 'npx expo export --platform web && node scripts/fix-static-html.mjs',
         output: 'dist',
       },
       indexPage: 'index.html',
-      errorPage: '/index.html',
       domain: domainConfig,
       assets: {
         fileOptions: [
