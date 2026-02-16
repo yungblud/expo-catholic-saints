@@ -68,6 +68,22 @@ TypeScript 5.x: Follow standard conventions
 - 스키마 정의: `lib/types/saints.ts` (Zod 런타임 검증)
 - 벌크 업데이트 스크립트: `scripts/bulk-update-saints.ts`
 
+### 데이터 원천 및 검증
+
+- **현재 데이터 생성 방식**: Claude (LLM)의 가톨릭 성인 지식 기반으로 생성
+- **한국어 이름**: 한국 천주교 주교회의 공식 표기법 기준 (예: Francis → 프란치스코, Augustine → 아우구스티노)
+- **축일(feast day)**: 로마 전례력(General Roman Calendar) 기준
+- **수호 성인 분야(patronages)**: 가톨릭교회 공식 인정 또는 전통적 공경 기반
+- **참고 가능한 공신력 있는 출처**:
+  - 한국 천주교 주교회의 (https://cbck.or.kr) — 한국어 성인명, 축일
+  - Vatican News (https://www.vaticannews.va) — 공식 시성/시복 정보
+  - Catholic Online Saints (https://www.catholic.org/saints) — 영문 성인 정보, 수호 분야
+  - Butler's Lives of the Saints — 전기 정보의 표준 참고 문헌
+- **데이터 정확성 주의사항**:
+  - LLM 생성 데이터는 연도, 라틴어명 등에서 부정확할 수 있으므로 위 출처로 교차 검증 권장
+  - 특히 `birthYear`, `deathYear`, `canonizationYear`는 출처에 따라 다를 수 있음
+  - `biography`는 핵심 사실 위주로 작성되어 있으나, 세부 사항은 원천 확인 필요
+
 ### 벌크 업데이트 방법
 
 1. 새 성인 데이터를 배치 JSON 파일로 작성 (예: `data/saints-batch-N.json`)
