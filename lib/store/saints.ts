@@ -1,8 +1,8 @@
 import saintsData from '@/data/saints.json';
 import { Saint, SaintSchema, SaintsData } from '@/lib/types/saints';
 import { formatMonthDay } from '@/lib/utils/dateUtils';
-import { createStore, Store } from 'tinybase';
 import { Platform } from 'react-native';
+import { createStore, Store } from 'tinybase';
 
 // Create TinyBase store
 const store: Store = createStore();
@@ -115,6 +115,15 @@ export function getSaint(id: string): Saint | undefined {
 export function getAllSaints(): Saint[] {
   const table = store.getTable('saints');
   return Object.values(table).map(rowToSaint);
+}
+
+export function getAllSaintsStatic(): Saint[] {
+  const result = SaintSchema.array().safeParse(saintsData.saints);
+  if (result.success) {
+    return result.data;
+  }
+  console.error('Invalid saints data', result.error);
+  return [];
 }
 
 /**

@@ -2,6 +2,7 @@ import { SaintDetail } from '@/components/saints/SaintDetail';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { LoadingState } from '@/components/ui/LoadingState';
 import {
+  getAllSaintsStatic,
   getSaint,
   getStore,
   isFavorite as isFavoriteStore,
@@ -11,6 +12,11 @@ import { Saint } from '@/lib/types/saints';
 import { Stack, useLocalSearchParams } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
+
+export async function generateStaticParams(): Promise<Record<string, string>[]> {
+  const saints = getAllSaintsStatic();
+  return saints.map((saint) => ({ id: saint.id }));
+}
 
 export default function SaintDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
