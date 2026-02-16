@@ -2,6 +2,7 @@ import { PROD_WEB_URL, SITE_NAME } from '@/lib/constants/meta';
 import { Saint } from '@/lib/types/saints';
 import Head from 'expo-router/head';
 import { useMemo } from 'react';
+import { Platform } from 'react-native';
 
 export function SaintDetailMetaHead({ saint }: { saint: Saint }) {
   const keywords = useMemo(() => {
@@ -10,6 +11,9 @@ export function SaintDetailMetaHead({ saint }: { saint: Saint }) {
   const title = useMemo(() => {
     return saint.nameKo + ' | ' + SITE_NAME;
   }, [saint]);
+
+  if (Platform.OS !== 'web') return null;
+
   return (
     <Head>
       <title>{title}</title>
