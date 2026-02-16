@@ -1,3 +1,4 @@
+import { withHapticPress } from '@/lib/utils/hapticUtils';
 import { Ionicons, MaterialIcons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 
@@ -20,7 +21,12 @@ export default function TabLayout() {
         options={{
           title: '모아보기',
           tabBarIcon: ({ color, size }) => (
-            <MaterialIcons name="church" size={size} color={color} />
+            <MaterialIcons
+              onPress={withHapticPress(() => {})}
+              name="church"
+              size={size}
+              color={color}
+            />
           ),
         }}
       />
@@ -28,7 +34,9 @@ export default function TabLayout() {
         name="search"
         options={{
           title: '검색',
-          tabBarIcon: ({ color, size }) => <Ionicons name="search" size={size} color={color} />,
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons onPress={withHapticPress(() => {})} name="search" size={size} color={color} />
+          ),
         }}
       />
       {/* ✅ favorites 파일은 유지하되, 탭에는 안 뜨게 */}
@@ -36,7 +44,9 @@ export default function TabLayout() {
         name="favorites"
         options={{
           title: '즐겨찾기',
-          tabBarIcon: ({ color, size }) => <Ionicons name="heart" size={size} color={color} />,
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons onPress={withHapticPress(() => {})} name="heart" size={size} color={color} />
+          ),
         }}
       />
     </Tabs>
