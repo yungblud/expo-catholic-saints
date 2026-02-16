@@ -62,4 +62,24 @@ TypeScript 5.x: Follow standard conventions
 - 로컬 빌드 (`expo run:ios/android`): `expo-dev-client` 플러그인 미포함
 - EAS development/development:device 빌드: `expo-dev-client` 플러그인 포함
 
+## Saints Data Bulk Update
+
+- 데이터 파일: `data/saints.json` (version 필드로 버전 관리)
+- 스키마 정의: `lib/types/saints.ts` (Zod 런타임 검증)
+- 벌크 업데이트 스크립트: `scripts/bulk-update-saints.ts`
+
+### 벌크 업데이트 방법
+
+1. 새 성인 데이터를 배치 JSON 파일로 작성 (예: `data/saints-batch-N.json`)
+   - 형식: `{ "saints": [ { ...saintFields }, ... ] }`
+   - 필수 필드: `id`, `nameKo`, `nameEn`, `shortName`, `feastMonth`, `feastDay`, `patronages`, `patronageCategories`, `biography` (50자 이상), `initials` (1자)
+   - 선택 필드: `nameLatin`, `birthYear`, `deathYear`, `canonizationYear`
+   - `id` 규칙: 소문자 알파벳, 숫자, 하이픈만 사용 (`^[a-z0-9-]+$`)
+   - `patronageCategories`: `occupation`, `location`, `situation`, `illness`, `cause`, `other` 중 선택
+2. 스크립트 실행: `npx tsx scripts/bulk-update-saints.ts data/saints-batch-N.json`
+   - 기존 데이터와 자동 병합 (ID 기준 중복 제거)
+   - Zod 스키마로 전체 데이터 검증
+   - 버전 자동 증가 및 타임스탬프 갱신
+3. 배치 파일은 작업 완료 후 삭제 가능
+
 <!-- MANUAL ADDITIONS END -->
