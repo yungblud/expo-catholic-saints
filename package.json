@@ -21,7 +21,9 @@
     "sst:dev": "npx sst dev",
     "sst:remove:staging": "npx sst remove --stage staging",
     "sst:remove:production": "npx sst remove --stage production",
-    "prepare": "lefthook install || true"
+    "prepare": "lefthook install || true",
+    "generate:sitemap": "node scripts/generate-sitemap.mjs",
+    "fix:static-html": "node scripts/fix-static-html.mjs"
   },
   "keywords": [
     "expo",
