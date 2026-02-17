@@ -3,7 +3,7 @@
 export default $config({
   app(input) {
     return {
-      name: 'cursed-by-jesus',
+      name: 'halo',
       home: 'aws',
       providers: {
         aws: {
