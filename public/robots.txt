@@ -2,5 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /_sitemap
 
-Host: https://cursed-by-jesus.coldsurf.io
-Sitemap: https://cursed-by-jesus.coldsurf.io/sitemap.xml
+Host: https://halo.coldsurf.io
+Sitemap: https://halo.coldsurf.io/sitemap.xml

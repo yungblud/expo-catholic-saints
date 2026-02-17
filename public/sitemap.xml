@@ -1,524 +1,1670 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/search</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/search</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/favorites</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/favorites</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/privacy-policy</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/privacy-policy</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/francis-assisi</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/francis-assisi</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/andrew-kim</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/andrew-kim</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/teresa-calcutta</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/teresa-calcutta</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/patrick-ireland</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/patrick-ireland</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/joseph-husband-mary</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/joseph-husband-mary</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/mary-mother-god</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/mary-mother-god</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/peter-apostle</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/peter-apostle</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/paul-apostle</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/paul-apostle</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/augustine-hippo</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/augustine-hippo</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/thomas-aquinas</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/thomas-aquinas</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/therese-lisieux</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/therese-lisieux</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/luke-evangelist</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/luke-evangelist</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/himelinus-vissenaeken</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/himelinus-vissenaeken</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/nicetius-lyon</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/nicetius-lyon</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/dionysius-paris</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/dionysius-paris</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/lucius-i-pope</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/lucius-i-pope</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/meingold-ale-mannia</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/meingold-ale-mannia</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/mlada-prague</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/mlada-prague</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/paul-verdun</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/paul-verdun</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/peter-igneus-albano</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/peter-igneus-albano</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/stephen-of-muret</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/stephen-of-muret</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/jerome-emiliani</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/jerome-emiliani</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/josephine-bakhita</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/josephine-bakhita</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/isaiah-krakow</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/isaiah-krakow</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/cointha-alexandria</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/cointha-alexandria</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/nicephorus-antioch</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/nicephorus-antioch</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/maron-syria</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/maron-syria</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/michael-febres-cordero</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/michael-febres-cordero</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/sabinus-canosa</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/sabinus-canosa</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/apollonia-alexandria</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/apollonia-alexandria</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/ansbert-rouen</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/ansbert-rouen</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/teilo-llandaff</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/teilo-llandaff</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/desideratus-clermont</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/desideratus-clermont</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/baldegundis</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/baldegundis</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/silvanus-terracina</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/silvanus-terracina</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/amantius-martyr</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/amantius-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/aponius-martyr</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/aponius-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/andrew-martyr-feb10</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/andrew-martyr-feb10</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/irenaeus-soldier-martyr</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/irenaeus-soldier-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/zoticus-soldier-martyr</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/zoticus-soldier-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/trumwin-whitby</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/trumwin-whitby</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/prothadius-besancon</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/prothadius-besancon</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/hyacinth-soldier-martyr</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/hyacinth-soldier-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/guilielmus-maleval</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/guilielmus-maleval</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/soteris-rome</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/soteris-rome</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/hugh-fosses</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/hugh-fosses</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/clare-rimini</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/clare-rimini</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/scholastica-nursia</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/scholastica-nursia</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/austreberta-pavilly</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/austreberta-pavilly</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/gobnata-ballyvourney</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/gobnata-ballyvourney</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/gregory-ii-pope</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/gregory-ii-pope</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/dativus-martyr-africa</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/dativus-martyr-africa</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/saturninus-abitinae-presbyter</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/saturninus-abitinae-presbyter</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/adolf-osnabruck</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/adolf-osnabruck</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/ampelius-bordighera</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/ampelius-bordighera</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/caedmon-whitby</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/caedmon-whitby</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/castrensis-capua</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/castrensis-capua</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/theodora-alexandria</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/theodora-alexandria</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/paschal-i-pope</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/paschal-i-pope</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/felix-abitinae-martyr</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/felix-abitinae-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/decorosus-capua</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/decorosus-capua</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/lucius-terni-martyr</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/lucius-terni-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/magnus-terni-martyr</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/magnus-terni-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/berach-cluain</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/berach-cluain</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/wilfrid-palazzuolo</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/wilfrid-palazzuolo</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/saturninus-terni-martyr</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/saturninus-terni-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/severus-valeria-priest</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/severus-valeria-priest</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/sigfrid-vaxjo</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/sigfrid-vaxjo</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/agape-terni</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/agape-terni</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/angelus-borgo</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/angelus-borgo</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/eusebius-ascea</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/eusebius-ascea</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/onesimus-disciple</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/onesimus-disciple</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/jovita-brescia</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/jovita-brescia</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/joseph-antioch-deacon</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/joseph-antioch-deacon</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/julia-certaldo</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/julia-certaldo</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/georgia-clermont</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/georgia-clermont</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/castulus-terni-martyr</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/castulus-terni-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/conrad-bavaria</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/conrad-bavaria</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/quinidius-vaison</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/quinidius-vaison</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/craton-rome</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/craton-rome</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/claude-la-colombiere</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/claude-la-colombiere</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/tanco-werden</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/tanco-werden</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cursed-by-jesus.coldsurf.io/saint/faustinus-brescia</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://halo.coldsurf.io/saint/faustinus-brescia</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/basil-great</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/elizabeth-ann-seton</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/raymond-penyafort</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/hilary-poitiers</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/anthony-abbot</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/sebastian-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/agnes-rome</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/vincent-deacon</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/francis-de-sales</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/timothy-apostle</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/angela-merici</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/john-bosco</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/blaise-sebaste</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/agatha-sicily</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/paul-miki</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/cyril-methodius</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/peter-damian</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/polycarp-smyrna</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/casimir-poland</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/perpetua-felicity</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/frances-rome</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/cyril-jerusalem</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/turibius-mogrovejo</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/francis-paola</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/isidore-seville</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/bernadette-soubirous</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/anselm-canterbury</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/george-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/mark-evangelist</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/catherine-siena</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/athanasius-alexandria</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/philip-james-apostles</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/isidore-farmer</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/rita-cascia</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/philip-neri</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/joan-arc</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/justin-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/charles-lwanga</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/boniface-mainz</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/barnabas-apostle</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/anthony-padua</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/aloysius-gonzaga</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/john-baptist</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/irenaeus-lyon</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/thomas-apostle</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/maria-goretti</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/benedict-nursia</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/camillus-lellis</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/bonaventure-doctor</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/james-greater-apostle</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/joachim-anne</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/martha-bethany</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/ignatius-loyola</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/alphonsus-liguori</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/john-vianney</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/dominic-guzman</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lawrence-rome</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/clare-assisi</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/maximilian-kolbe</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/stephen-hungary</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/bernard-clairvaux</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/pius-x-pope</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/rose-lima</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/bartholomew-apostle</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/louis-ix-france</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/monica-hippo</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/gregory-great</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/peter-claver</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/john-chrysostom</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/robert-bellarmine</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/matthew-apostle</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/padre-pio</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/cosmas-damian</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/vincent-de-paul</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/michael-gabriel-raphael</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/jerome-stridon</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/john-xxiii-pope</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/teresa-avila</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/ignatius-antioch</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/john-paul-ii-pope</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/simon-jude-apostles</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/martin-porres</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/charles-borromeo</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/leo-great-pope</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/martin-tours</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/albert-great</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/margaret-scotland</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/elizabeth-hungary</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/cecilia-rome</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/andrew-apostle</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/francis-xavier</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/nicholas-myra</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/ambrose-milan</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/juan-diego</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lucy-syracuse</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/john-cross</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/stephen-first-martyr</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/john-evangelist-apostle</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/thomas-becket</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/paul-chong-hasang</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/damien-molokai</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kateri-tekakwitha</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/matthias-apostle</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/ephrem-syrian</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/peter-canisius</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/bede-venerable</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/sylvester-i-pope</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/clement-rome</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/cyprian-carthage</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/yu-jung-cheol-john</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/jeong-yakjong-augustine</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/yu-daecheol-peter</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/cho-jeungseo-barbara</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/nam-myeonghyeok-damian</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/heo-imre-magdalena</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kwon-deein-peter</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-kwangryeol-augustine</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/pak-hui-soon-lucy</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kim-seongwoo-anthony</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/yu-jingil-augustine</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/jeong-hawon-protase</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kim-hyoju-agnes</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-youhei-john</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/choe-changheub-peter</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/hong-byeongju-peter</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/son-sobyeog-magdalena</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-munwoo-john</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/choe-yeongi-barbara</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kim-jeongdeuk-catherine</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/laurent-imbert-bishop</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/maubant-peter-priest</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/chastan-james-priest</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/berneux-simeon-bishop</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/bretenieres-just-priest</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/beaulieu-louis-priest</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/dorie-peter-priest</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/daveluy-anthony-bishop</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/huin-martin-luke-priest</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/aumaitre-peter-priest</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-seongrye-john</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/jeong-sunmae-barbara</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/han-yeongi-barbara</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kim-agnes-virgin</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-beomwoo-john</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/choe-hyeong-peter</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/jeon-jangwoon-john</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/nam-jongsam-john</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/hong-bongjoo-thomas</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-jaegyeong-thomas</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kim-obi-anna</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-yeonghee-john</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/park-jongwon-augustine</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kim-seunghun-peter</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/oh-janggeun-john</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/yi-gwangheok-augustine</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/min-kookka-stephen</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/jeong-cheollyeom-catherine</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/son-seon-ji-peter</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/han-wonseo-joseph</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/yi-bongeum-magdalena</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/yu-chingil-peter</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/cho-hyeonyoung-michael</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kim-deegon-thomas</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-hogyo-peter</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kwon-huiseo-paul</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/jeong-wonmyung-john</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/jo-sinhcheol-charles</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/choe-gyeonghwan-francis</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-jeongshik-john-paul</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kim-jonglim-luke</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/woo-surim-susanna</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/hyeon-seongmun-charles</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kim-imkuji-theresa</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-yeonhee-maria</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/yi-kyeongeon-paul</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/yi-kwangsa-ignatius</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/nam-ira-sebastian</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-bonyeong-john</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/pak-kyungjin-augustine</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-kwanghui-luke</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/song-gyosei-peter</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/choe-yeongsu-michael</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/yi-inhdeok-maria</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/kim-nugobi-sebastian</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/park-sanggeun-john</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/han-jaekwon-joseph</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/lee-seonchang-joseph</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/shin-taebo-peter</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/yi-myeongso-peter</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/yu-saengcheol-joseph</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://halo.coldsurf.io/saint/hong-yeongjoo-paul</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

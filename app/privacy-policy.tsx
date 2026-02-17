@@ -5,13 +5,13 @@ export default function PrivacyPolicy() {
     <ScrollView className="flex-1 bg-white">
       <View className="mx-auto w-full max-w-3xl px-4 py-8 md:px-8">
         <Text className="mb-6 text-center text-2xl font-bold text-gray-900">개인정보 처리방침</Text>
-        <Text className="mb-8 text-center text-base text-gray-600">Cursed By Jesus</Text>
+        <Text className="mb-8 text-center text-base text-gray-600">Halo</Text>
 
         <Section title="1. 개인정보의 처리 목적">
           <Text className="text-base leading-7 text-gray-700">
-            「Cursed By Jesus」(이하 &quot;앱&quot;)은 가톨릭 성인 정보를 제공하는 서비스입니다. 본
-            앱은 사용자의 개인정보를 수집하지 않으며, 모든 기능은 별도의 개인정보 처리 없이 이용할
-            수 있습니다.
+            「Halo」(이하 &quot;앱&quot;)은 가톨릭 성인 정보를 제공하는 서비스입니다. 본 앱은
+            사용자의 개인정보를 수집하지 않으며, 모든 기능은 별도의 개인정보 처리 없이 이용할 수
+            있습니다.
           </Text>
         </Section>
 

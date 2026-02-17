@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "Cursed By Jesus",
+    "name": "Halo",
     "slug": "expo-catholic-saints",
-    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "cursedbyjesus",
+    "scheme": "halo",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "runtimeVersion": {
@@ -21,8 +20,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "io.coldsurf.cursedbyjesus",
+      "supportsTablet": false,
+      "bundleIdentifier": "io.coldsurf.halo",
       "buildNumber": "1",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
@@ -33,7 +32,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "io.coldsurf.cursedbyjesus",
+      "package": "io.coldsurf.halo",
       "versionCode": 1
     },
     "web": {

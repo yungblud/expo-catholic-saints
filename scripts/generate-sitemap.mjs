@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import saintsData from '../data/saints.json' with { type: 'json' };
 
-const BASE_URL = 'https://cursed-by-jesus.coldsurf.io';
+const BASE_URL = 'https://halo.coldsurf.io';
 
 const staticRoutes = [
   { path: '/', priority: 1.0, changefreq: 'weekly' },
