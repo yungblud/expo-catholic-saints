@@ -5,7 +5,7 @@ import PrivacyPolicy from '../privacy-policy';
 describe('PrivacyPolicy', () => {
   it('renders the app name', () => {
     render(<PrivacyPolicy />);
-    expect(screen.getAllByText(/Cursed By Jesus/).length).toBeGreaterThan(0);
+    expect(screen.getAllByText(/Halo/).length).toBeGreaterThan(0);
   });
 
   it('renders all 8 PIPA required section headings', () => {

@@ -98,4 +98,14 @@ TypeScript 5.x: Follow standard conventions
    - 버전 자동 증가 및 타임스탬프 갱신
 3. 배치 파일은 작업 완료 후 삭제 가능
 
+## App Store 심사 제출
+
+- 가이드 문서: `docs/app-store-submission.md`
+- **앱 이름 리젝 위험**: "Cursed By Jesus"는 종교적 불쾌감 사유로 리젝 가능성 높음 → 이름 변경 권장
+- 카테고리: Reference 또는 Education / 연령 등급: 4+
+- 개인정보: "데이터 수집 없음" (100% 로컬 저장, 서버 전송 없음)
+- 키워드(KR): 가톨릭,성인,축일,수호성인,순교자,기도,전례력,성당,천주교,미사
+- 키워드(EN): catholic,saints,patron,feast day,martyrs,prayer,liturgical,church
+- 스크린샷 필요: iOS 6.7/6.5/5.5인치, 5장 권장 (목록, 검색, 상세, 즐겨찾기, 카테고리)
+
 <!-- MANUAL ADDITIONS END -->
