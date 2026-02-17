@@ -2,7 +2,6 @@
   "expo": {
     "name": "Halo",
     "slug": "expo-catholic-saints",
-    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "cursedbyjesus",
