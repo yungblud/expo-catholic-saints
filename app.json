@@ -4,7 +4,7 @@
     "slug": "expo-catholic-saints",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "cursedbyjesus",
+    "scheme": "halo",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "runtimeVersion": {
@@ -21,7 +21,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "io.coldsurf.cursedbyjesus",
+      "bundleIdentifier": "io.coldsurf.halo",
       "buildNumber": "1",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
@@ -32,7 +32,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "io.coldsurf.cursedbyjesus",
+      "package": "io.coldsurf.halo",
       "versionCode": 1
     },
     "web": {
