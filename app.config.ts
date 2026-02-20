@@ -29,5 +29,8 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     ...config,
     plugins,
     version: pkg.version,
+    runtimeVersion: {
+      policy: 'appVersion',
+    },
   } as ExpoConfig;
 };
