@@ -7,9 +7,6 @@
     "scheme": "halo",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "runtimeVersion": {
-      "policy": "fingerprint"
-    },
     "updates": {
       "url": "https://u.expo.dev/da7db2cc-2300-4e1f-85f0-267fe4b729d3",
       "fallbackToCacheTimeout": 0
