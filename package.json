@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "catholic-saints-search",
   "description": "카톨릭 성인 검색 앱",
   "main": "expo-router/entry",
