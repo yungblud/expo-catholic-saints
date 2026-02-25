@@ -1763,21 +1763,6 @@
       "initials": "르"
     },
     {
-      "id": "boniface-mainz",
-      "nameKo": "성 보니파시오",
-      "nameEn": "Saint Boniface",
-      "nameLatin": "Bonifatius",
-      "shortName": "보니파시오",
-      "feastMonth": 6,
-      "feastDay": 5,
-      "patronages": ["독일", "양조업자"],
-      "patronageCategories": ["location", "occupation"],
-      "biography": "성 보니파시오(675-754)는 영국 출신의 수도자로 '독일의 사도'로 불립니다. 게르만 지역에 복음을 전파하고 교회 조직을 정비하였습니다. 토르의 참나무를 베어넘긴 일화가 유명하며, 프리지아에서 선교 중 이교도에게 순교하였습니다.",
-      "birthYear": 675,
-      "deathYear": 754,
-      "initials": "보"
-    },
-    {
       "id": "barnabas-apostle",
       "nameKo": "성 바르나바",
       "nameEn": "Saint Barnabas",
@@ -1895,37 +1880,6 @@
       "birthYear": 480,
       "deathYear": 547,
       "initials": "베"
-    },
-    {
-      "id": "camillus-lellis",
-      "nameKo": "성 카밀로 드 렐리스",
-      "nameEn": "Saint Camillus de Lellis",
-      "nameLatin": "Camillus de Lellis",
-      "shortName": "카밀로",
-      "feastMonth": 7,
-      "feastDay": 14,
-      "patronages": ["병자", "간호사", "병원"],
-      "patronageCategories": ["situation", "occupation"],
-      "biography": "성 카밀로 드 렐리스(1550-1614)는 이탈리아의 사제이자 병자 간호 수도회의 창설자입니다. 젊은 시절 도박과 방탕에 빠졌으나 회심 후 병자들을 돌보는 데 헌신하였습니다. 적십자 표시를 최초로 사용하였으며, 간호사와 병원의 수호성인입니다.",
-      "birthYear": 1550,
-      "deathYear": 1614,
-      "canonizationYear": 1746,
-      "initials": "카"
-    },
-    {
-      "id": "bonaventure-doctor",
-      "nameKo": "성 보나벤투라",
-      "nameEn": "Saint Bonaventure",
-      "nameLatin": "Bonaventura",
-      "shortName": "보나벤투라",
-      "feastMonth": 7,
-      "feastDay": 15,
-      "patronages": ["신학자", "짐꾼"],
-      "patronageCategories": ["occupation"],
-      "biography": "성 보나벤투라(1221-1274)는 프란치스코회의 신학자이자 교회 학자입니다. '천사적 박사' 토마스 아퀴나스와 함께 파리 대학에서 가르쳤으며, '세라핌 박사'로 불렸습니다. 프란치스코회 총장을 역임하며 수도회를 개혁하였고, 추기경으로 서임되었습니다.",
-      "birthYear": 1221,
-      "deathYear": 1274,
-      "initials": "보"
     },
     {
       "id": "james-greater-apostle",
@@ -2380,22 +2334,6 @@
       "initials": "이"
     },
     {
-      "id": "john-paul-ii-pope",
-      "nameKo": "성 요한 바오로 2세 교황",
-      "nameEn": "Saint John Paul II",
-      "nameLatin": "Ioannes Paulus II",
-      "shortName": "요한 바오로 2세",
-      "feastMonth": 10,
-      "feastDay": 22,
-      "patronages": ["세계 청년 대회", "가정"],
-      "patronageCategories": ["cause", "situation"],
-      "biography": "성 요한 바오로 2세(1920-2005)는 폴란드 출신의 제264대 교황입니다. 공산 정권 하에서 사제가 되어 교황으로 선출된 후 동유럽 공산주의 붕괴에 기여하였습니다. 104차례 해외 사목 방문을 하였으며 종교간 대화와 세계 평화에 힘썼습니다.",
-      "birthYear": 1920,
-      "deathYear": 2005,
-      "canonizationYear": 2014,
-      "initials": "요"
-    },
-    {
       "id": "simon-jude-apostles",
       "nameKo": "성 시몬과 유다 사도",
       "nameEn": "Saints Simon and Jude",
@@ -2407,22 +2345,6 @@
       "patronageCategories": ["situation"],
       "biography": "성 시몬(열혈당원)과 성 유다(타대오)는 예수 그리스도의 열두 사도입니다. 함께 페르시아 지역에서 선교하다가 순교한 것으로 전해집니다. 유다 타대오는 특히 절망적 상황의 수호성인으로 공경받으며, 유다 서간의 저자로 여겨집니다.",
       "initials": "시"
-    },
-    {
-      "id": "martin-porres",
-      "nameKo": "성 마르티노 데 포레스",
-      "nameEn": "Saint Martin de Porres",
-      "nameLatin": "Martinus de Porres",
-      "shortName": "포레스",
-      "feastMonth": 11,
-      "feastDay": 3,
-      "patronages": ["혼혈인", "이발사", "공중보건", "동물"],
-      "patronageCategories": ["situation", "occupation", "cause"],
-      "biography": "성 마르티노 데 포레스(1579-1639)는 페루의 도미니코회 수사입니다. 스페인 귀족 아버지와 흑인 노예 어머니 사이에서 태어났으며, 인종 차별을 겪으면서도 겸손과 사랑으로 모든 이를 섬겼습니다. 동물을 사랑하고 치유의 은사가 있었습니다.",
-      "birthYear": 1579,
-      "deathYear": 1639,
-      "canonizationYear": 1962,
-      "initials": "포"
     },
     {
       "id": "charles-borromeo",
@@ -2650,20 +2572,6 @@
       "biography": "성 스테파노는 교회 최초의 순교자이자 일곱 부제 중 한 분입니다. 사도행전에 따르면 성령과 지혜가 충만한 사람으로 유다인들과 논쟁하다가 신성모독 혐의로 체포되었습니다. 돌에 맞아 죽으면서도 자신을 해치는 이들을 용서해달라고 기도하였습니다.",
       "deathYear": 36,
       "initials": "스"
-    },
-    {
-      "id": "john-evangelist-apostle",
-      "nameKo": "성 요한 사도 복음사가",
-      "nameEn": "Saint John the Evangelist",
-      "nameLatin": "Ioannes Evangelista",
-      "shortName": "요한 사도",
-      "feastMonth": 12,
-      "feastDay": 27,
-      "patronages": ["출판업자", "작가", "신학자"],
-      "patronageCategories": ["occupation"],
-      "biography": "성 요한은 열두 사도 중 한 분으로 제베대오의 아들이자 야고보의 동생입니다. '사랑받는 제자'로 불리며 최후의 만찬에서 예수님 가슴에 기대었습니다. 요한 복음서와 요한 서간, 묵시록의 저자로 전해지며, 사도 중 유일하게 자연사하였습니다.",
-      "deathYear": 100,
-      "initials": "요"
     },
     {
       "id": "thomas-becket",
@@ -4751,20 +4659,6 @@
       "initials": "요"
     },
     {
-      "id": "james-greater",
-      "nameKo": "성 야고보 사도",
-      "nameEn": "Saint James the Greater, Apostle",
-      "nameLatin": "Iacobus Maior Apostolus",
-      "shortName": "야고보",
-      "feastMonth": 7,
-      "feastDay": 25,
-      "patronages": ["스페인", "순례자", "약제사", "모자 장수"],
-      "patronageCategories": ["location", "occupation"],
-      "biography": "성 야고보 사도(?-44)는 제베대오의 아들이자 요한 사도의 형으로, 예수님의 열두 사도 중 한 명입니다. 베드로, 요한과 함께 예수님의 변모와 겟세마니 기도에 함께한 가장 가까운 제자였습니다. 헤로데 아그리파 1세에게 참수되어 최초로 순교한 사도가 되었으며, 스페인 산티아고 데 콤포스텔라에 유해가 안치된 것으로 전해집니다.",
-      "deathYear": 44,
-      "initials": "야"
-    },
-    {
       "id": "camillus-de-lellis",
       "nameKo": "성 가밀로 데 렐리스",
       "nameEn": "Saint Camillus de Lellis",
@@ -4795,22 +4689,6 @@
       "deathYear": 1274,
       "canonizationYear": 1482,
       "initials": "보"
-    },
-    {
-      "id": "bridget-sweden",
-      "nameKo": "스웨덴의 성녀 비르지타",
-      "nameEn": "Saint Bridget of Sweden",
-      "nameLatin": "Birgitta Suecica",
-      "shortName": "비르지타",
-      "feastMonth": 7,
-      "feastDay": 23,
-      "patronages": ["스웨덴", "유럽", "수녀", "환자"],
-      "patronageCategories": ["location", "occupation", "situation"],
-      "biography": "스웨덴의 성녀 비르지타(1302/1303-1373)는 스웨덴의 귀족 출신 신비가이자 수도회 창설자입니다. 남편 사후 신비 체험과 계시를 통해 구세주의 지극히 거룩한 구세주회(비르지타 수녀회)를 설립하였습니다. 교황청의 아비뇽 유수 시절 교황의 로마 귀환을 촉구하였으며, 1999년 유럽의 공동 수호성인으로 선포되었습니다.",
-      "birthYear": 1303,
-      "deathYear": 1373,
-      "canonizationYear": 1391,
-      "initials": "비"
     },
     {
       "id": "peter-chrysologus",
@@ -5019,21 +4897,6 @@
       "birthYear": 676,
       "deathYear": 749,
       "initials": "요"
-    },
-    {
-      "id": "damasus-i",
-      "nameKo": "교황 성 다마소 1세",
-      "nameEn": "Saint Damasus I, Pope",
-      "nameLatin": "Damasus I Papa",
-      "shortName": "다마소 1세",
-      "feastMonth": 12,
-      "feastDay": 11,
-      "patronages": ["교황", "고고학자"],
-      "patronageCategories": ["occupation"],
-      "biography": "교황 성 다마소 1세(305-384)는 366년부터 384년까지 재위한 교황입니다. 성 예로니모에게 라틴어 성경(불가타) 번역을 위촉하였으며, 로마의 순교자 카타콤바를 정비하고 비문을 설치하였습니다. 라틴어를 전례 언어로 확립하고, 로마 교회의 권위를 강화하는 데 기여하였습니다.",
-      "birthYear": 305,
-      "deathYear": 384,
-      "initials": "다"
     },
     {
       "id": "john-apostle",
