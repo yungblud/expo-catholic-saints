@@ -1,10 +1,6 @@
 import { ConfigContext, ExpoConfig } from 'expo/config';
 import pkg from './package.json';
 
-const isEasDevBuild =
-  process.env.EAS_BUILD_PROFILE === 'development' ||
-  process.env.EAS_BUILD_PROFILE === 'development:device';
-
 export default ({ config }: ConfigContext): ExpoConfig => {
   const plugins: ExpoConfig['plugins'] = [
     'expo-router',
@@ -21,10 +17,6 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     ],
     'expo-web-browser',
   ];
-
-  if (isEasDevBuild) {
-    plugins.push('expo-dev-client');
-  }
 
   return {
     ...config,
