@@ -49,6 +49,14 @@ export async function initializeSaintsStore(): Promise<void> {
 
   const data = saintsData as SaintsData;
 
+  const existingSaints = store.getTable('saints');
+  const existingSaintsIds = Object.keys(existingSaints);
+  const newSaintsIds = saintsData.saints.map((saint) => saint.id);
+  const saintsToRemove = existingSaintsIds.filter((id) => !newSaintsIds.includes(id));
+  saintsToRemove.forEach((id) => {
+    store.delRow('saints', id);
+  });
+
   // Populate store and build feast day index
   feastDayIndex = {};
 
