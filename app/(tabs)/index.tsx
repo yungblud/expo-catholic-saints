@@ -31,7 +31,7 @@ export default function HomeScreen() {
   useScrollToTop(listRef);
 
   return (
-    <SafeArea edges={['top']}>
+    <SafeArea>
       <CommonMetaHead title="모아보기" description="카톨릭 성인을 모아보세요." />
       <View style={styles.container}>
         <FlatList

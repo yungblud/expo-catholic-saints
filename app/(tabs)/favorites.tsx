@@ -43,7 +43,7 @@ export default function FavoritesScreen() {
   }, []);
 
   return (
-    <SafeArea edges={['top']}>
+    <SafeArea>
       <CommonMetaHead title="즐겨찾기" description="북마크한 카톨릭 성인들을 모아보세요." />
       <View style={styles.container}>
         <FlatList
