@@ -2,6 +2,7 @@ import { CommonMetaHead } from '@/components/meta/CommonMetaHead';
 import { SaintCard } from '@/components/saints/SaintCard';
 import { SearchInput } from '@/components/search/SearchInput';
 import { EmptyState } from '@/components/ui/EmptyState';
+import { SafeArea } from '@/components/ui/SafeArea';
 import { useSearch } from '@/lib/hooks/useSearch';
 import { Saint, SearchResult } from '@/lib/types/saints';
 import { useScrollToTop } from '@react-navigation/native';
@@ -57,7 +58,7 @@ export default function SearchScreen() {
   }, [query]);
 
   return (
-    <>
+    <SafeArea edges={['top']}>
       <CommonMetaHead
         title="검색"
         description="카톨릭 성인의 이름, 영어, 또는 라틴어 이름으로 검색하세요."
@@ -84,7 +85,7 @@ export default function SearchScreen() {
           windowSize={5}
         />
       </View>
-    </>
+    </SafeArea>
   );
 }
 
