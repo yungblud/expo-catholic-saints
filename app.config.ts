@@ -11,14 +11,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     'expo-font',
     'expo-updates',
     'expo-sqlite',
-    [
-      'expo-build-properties',
-      {
-        android: {
-          kotlinVersion: '1.9.25',
-        },
-      },
-    ],
+    ['expo-build-properties'],
     ['expo-web-browser'],
   ];
 
