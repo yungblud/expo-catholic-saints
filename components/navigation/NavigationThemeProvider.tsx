@@ -1,11 +1,8 @@
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { createContext, useContext } from 'react';
-import { ColorValue, DynamicColorIOS, Platform, useColorScheme } from 'react-native';
+import { ColorValue, Platform, useColorScheme } from 'react-native';
 
-const iosBackgroundColor = DynamicColorIOS({
-  dark: DarkTheme.colors.background,
-  light: DefaultTheme.colors.background,
-});
+import { iosBackgroundColor } from './navigationColors';
 
 type NavigationThemeContextValue = {
   backgroundColor: ColorValue;
