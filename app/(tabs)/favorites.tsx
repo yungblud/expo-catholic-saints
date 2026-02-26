@@ -1,6 +1,7 @@
 import { CommonMetaHead } from '@/components/meta/CommonMetaHead';
 import { SaintCard } from '@/components/saints/SaintCard';
 import { EmptyState } from '@/components/ui/EmptyState';
+import { ESTIMATED_BOTTOM_SPACE_FOR_TAB_BAR, SafeArea } from '@/components/ui/SafeArea';
 import { getFavorites, getSaint, getStore } from '@/lib/store/saints';
 import { useScrollToTop } from '@react-navigation/native';
 import { router } from 'expo-router';
@@ -42,7 +43,7 @@ export default function FavoritesScreen() {
   }, []);
 
   return (
-    <>
+    <SafeArea edges={['top']}>
       <CommonMetaHead title="즐겨찾기" description="북마크한 카톨릭 성인들을 모아보세요." />
       <View style={styles.container}>
         <FlatList
@@ -54,10 +55,15 @@ export default function FavoritesScreen() {
           initialNumToRender={10}
           maxToRenderPerBatch={10}
           windowSize={5}
-          contentContainerStyle={favorites.length === 0 ? styles.emptyContainer : undefined}
+          contentContainerStyle={[
+            {
+              paddingBottom: ESTIMATED_BOTTOM_SPACE_FOR_TAB_BAR,
+            },
+            favorites.length === 0 ? styles.emptyContainer : undefined,
+          ]}
         />
       </View>
-    </>
+    </SafeArea>
   );
 }
 
