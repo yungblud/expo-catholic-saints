@@ -98,6 +98,16 @@ TypeScript 5.x: Follow standard conventions
    - 버전 자동 증가 및 타임스탬프 갱신
 3. 배치 파일은 작업 완료 후 삭제 가능
 
+## Release Tagging 컨벤션
+
+- `v{version}-iOS` — iOS 네이티브 바이너리 빌드 (App Store 제출)
+- `v{version}-web` — Web 정적 배포 (SST/CloudFront)
+- `v{version}-iOS-ota.N` — iOS OTA JS 번들 업데이트 (`eas update`, N은 1부터 순번)
+- runtimeVersion은 `appVersion` policy → `package.json`의 `version` 필드와 동일
+- 현재 운영 플랫폼: iOS + Web (Android 추후 추가 예정)
+- Android 출시 후 OTA가 양 플랫폼 동시 배포되면 `v{version}-ota.N`으로 전환
+- 상세 가이드: `docs/release-tagging.md`
+
 ## App Store 심사 제출
 
 - 가이드 문서: `docs/app-store-submission.md`
