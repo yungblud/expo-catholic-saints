@@ -58,7 +58,7 @@ export default function SearchScreen() {
   }, [query]);
 
   return (
-    <SafeArea edges={['top']}>
+    <SafeArea>
       <CommonMetaHead
         title="검색"
         description="카톨릭 성인의 이름, 영어, 또는 라틴어 이름으로 검색하세요."
