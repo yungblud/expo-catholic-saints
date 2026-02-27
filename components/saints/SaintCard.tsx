@@ -4,6 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { Saint } from '@/lib/types/saints';
 import { SaintAvatar } from './SaintAvatar';
 import { formatFeastDayKo } from '@/lib/utils/dateUtils';
+import { useColorScheme } from '@coldsurfers/ocean-road/native';
 
 interface SaintCardProps {
   saint: Saint;
@@ -20,6 +21,7 @@ export function SaintCard({
   onFavoriteToggle,
   testID,
 }: SaintCardProps) {
+  const { semantics } = useColorScheme();
   const handlePress = () => {
     onPress(saint);
   };
@@ -30,7 +32,12 @@ export function SaintCard({
 
   return (
     <TouchableOpacity
-      style={styles.container}
+      style={[
+        styles.container,
+        {
+          backgroundColor: semantics.background[1],
+        },
+      ]}
       onPress={handlePress}
       testID={testID}
       accessibilityLabel={`${saint.nameKo}, ${formatFeastDayKo(saint.feastMonth, saint.feastDay)} 축일`}
@@ -87,7 +94,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: 16,
-    backgroundColor: '#ffffff',
     borderBottomWidth: 1,
     borderBottomColor: '#f3f4f6',
   },
