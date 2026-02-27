@@ -7,6 +7,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import * as Updates from 'expo-updates';
 import { useEffect, useState } from 'react';
+import { ColorSchemeProvider } from '@coldsurfers/ocean-road/native';
 
 // Prevent splash screen from auto-hiding
 SplashScreen.preventAutoHideAsync();
@@ -46,11 +47,11 @@ export default function RootLayout() {
   }, []);
 
   return (
-    <>
+    <ColorSchemeProvider initialColorScheme="light">
+      <StatusBar style="dark" />
       <CommonMetaHead />
       {isInitialized ? (
         <>
-          <StatusBar style="dark" />
           <Stack>
             <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
             <Stack.Screen
@@ -67,6 +68,6 @@ export default function RootLayout() {
       ) : (
         <LoadingState />
       )}
-    </>
+    </ColorSchemeProvider>
   );
 }
